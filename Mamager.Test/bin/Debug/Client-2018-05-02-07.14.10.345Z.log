@@ -1,0 +1,138 @@
+[2018-05-02 07:17:35.913 GMT    12	INFO   	100000	AssemblyLoader.Client	]	Recursively searching for assemblies in G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug...	
+[2018-05-02 07:17:36.556 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\Mamager.Test.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:36.561 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\Mangaer.Contract.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:36.937 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.107 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\Microsoft.CodeAnalysis.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.123 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.141 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.142 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.146 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.150 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.173 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\Newtonsoft.Json.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.179 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\Orleans.dll
+	* Assembly filename is excluded.	
+[2018-05-02 07:17:37.181 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\OrleansCodeGenerator.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.188 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.AppContext.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.203 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Collections.Immutable.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.205 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Console.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.207 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.209 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Diagnostics.StackTrace.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.213 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.IO.FileSystem.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.216 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.IO.FileSystem.Primitives.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.264 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Reflection.Metadata.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.266 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Security.Cryptography.Algorithms.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.267 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Security.Cryptography.Encoding.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.269 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Security.Cryptography.Primitives.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.271 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.278 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Text.Encoding.CodePages.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.299 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Threading.Thread.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.300 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Xml.XmlDocument.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.302 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Xml.XPath.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.305 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\System.Xml.XPath.XDocument.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-02 07:17:37.306 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2018-05-02 07:17:37.308 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2018-05-02 07:17:37.310 GMT    12	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+	* Assembly filename indicates that it is a resource assembly.	
+[2018-05-02 07:17:37.311 GMT    12	INFO   	100000	AssemblyLoader.Client	]	Loading assembly G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\OrleansProviders.dll...	
+[2018-05-02 07:17:37.328 GMT    12	INFO   	100000	AssemblyLoader.Client	]	1 assemblies loaded.	
+[2018-05-02 07:17:37.365 GMT    12	INFO   	100313	OutsideRuntimeClient	]	---------- Initializing OutsideRuntimeClient on TY-04-IT-040151B at 192.168.2.151 Client Id = *cli/f3a3b594 ----------	
+[2018-05-02 07:17:37.370 GMT    12	INFO   	100314	OutsideRuntimeClient	]	---------- Starting OutsideRuntimeClient with runtime Version='1.4.0.0 (Release).' in AppDomain=<AppDomain.Id=3, AppDomain.FriendlyName=TestSourceHost: Enumering assembly> Config= 
+ Platform version info:
+   Orleans version: 1.4.0.0 (Release).
+   .NET version: 4.0.30319.42000
+   Is .NET 4.5=True
+   OS version: Microsoft Windows NT 10.0.16299.0
+   GC Type=Client GCLatencyMode=Interactive
+   Host: TY-04-IT-040151B
+   Processor Count: 2
+Client Configuration:
+   Config File Name: 
+   Start time: 2018-05-02 07:17:37.370 GMT
+   Gateway Provider: Config
+   Gateways[1]:
+      127.0.0.1:40000
+   Preferred Gateway Index: -1
+   GatewayListRefreshPeriod: 00:01:00
+   Preferred Address Family: InterNetwork
+   DNS Host Name: TY-04-IT-040151B
+   Client Name: Client
+   Tracing: 
+     Default Trace Level: Info
+     TraceLevelOverrides: None
+     Trace to Console: True
+     Trace File Name: G:\Authoritymanager\Authoritymanager\Mamager.Test\bin\Debug\Client-2018-05-02-07.14.10.345Z.log
+     LargeMessageWarningThreshold: 85000
+     PropagateActivityId: False
+     BulkMessageLimit: 5
+   Statistics: 
+     MetricsTableWriteInterval: 00:00:30
+     PerfCounterWriteInterval: -00:00:00.0010000
+     LogWriteInterval: 00:05:00
+     WriteLogStatisticsToTable: True
+     StatisticsCollectionLevel: Info
+   Messaging:
+       Response timeout: 00:30:00
+       Maximum resend count: 0
+       Resend On Timeout: False
+       Maximum Socket Age: 10675199.02:48:05.4775807
+       Drop Expired Messages: True
+       Client Sender Buckets: 8192
+       Buffer Pool Buffer Size: 4096
+       Buffer Pool Max Size: 10000
+       Buffer Pool Preallocation Size: 250
+       Fallback serializer: 
+   .NET: 
+       .NET thread pool sizes - Min: Worker Threads=2 Completion Port Threads=2
+       .NET thread pool sizes - Max: Worker Threads=1023 Completion Port Threads=1000
+   Providers:
+       No providers configured.
+	
+[2018-05-02 07:17:37.425 GMT    12	INFO   	101309	Messaging.GatewayManager	]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://127.0.0.1:40000/0]	
+[2018-05-02 07:17:39.286 GMT    12	INFO   	100908	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:40000/0	192.168.2.151:0]	Connected to gateway at address gwy.tcp://127.0.0.1:40000/0 on trial 0.	
+[2018-05-02 07:17:39.296 GMT    14	INFO   	100000	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:40000/0	192.168.2.151:0]	Starting AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:40000/0 on managed thread 14	
+[2018-05-02 07:17:39.293 GMT    15	INFO   	100000	Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:40000/0	192.168.2.151:0]	Starting AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:40000/0 on managed thread 15	
+[2018-05-02 07:17:39.429 GMT    12	INFO   	100929	OutsideRuntimeClient	192.168.2.151:0]	---------- Started OutsideRuntimeClient with Global Client ID: C192.168.2.151:0:-262941457*cli/f3a3b594@9153c4be, client GUID ID: *cli/f3a3b594	
+[2018-05-02 07:17:58.729 GMT     2	WARNING	100931	OutsideRuntimeClient	192.168.2.151:0]	Current AppDomain=<AppDomain.Id=3, AppDomain.FriendlyName=TestSourceHost: Enumering assembly> is unloading.	
+[2018-05-02 07:17:58.802 GMT     5	ERROR  	100326	OutsideRuntimeClient	192.168.2.151:0]	!!!!!!!!!! RunClientMessagePump has thrown exception	
+Exc level 0: System.Threading.ThreadAbortException: 正在中止线程。
+   在 Orleans.Messaging.ProxiedMessageCenter.WaitMessage(Categories type, CancellationToken ct)
+   在 Orleans.OutsideRuntimeClient.RunClientMessagePump(CancellationToken ct)
+   在 Orleans.OutsideRuntimeClient.<>c__DisplayClass53_0.<StartInternal>b__0()
+[2018-05-02 07:17:58.818 GMT    14	INFO   	100328	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:40000/0	192.168.2.151:0]	Stopping AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:40000/0 that runs on managed thread 14	
+[2018-05-02 07:17:58.811 GMT    15	WARNING	100902	Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:40000/0	192.168.2.151:0]	Unexpected/unhandled exception while receiving: System.Threading.ThreadAbortException: 正在中止线程。
+   在 Orleans.Messaging.GatewayClientReceiver.FillBuffer(List`1 bufferSegments)
+   在 Orleans.Messaging.GatewayClientReceiver.Run(). Restarting gateway receiver for gwy.tcp://127.0.0.1:40000/0.	
+Exc level 0: System.Threading.ThreadAbortException: 正在中止线程。
+   在 Orleans.Messaging.GatewayClientReceiver.FillBuffer(List`1 bufferSegments)
+   在 Orleans.Messaging.GatewayClientReceiver.Run()
+[2018-05-02 07:17:58.868 GMT    15	INFO   	100328	Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:40000/0	192.168.2.151:0]	Stopping AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:40000/0 that runs on managed thread 15	

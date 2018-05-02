@@ -1,0 +1,5 @@
+G:\Authoritymanager\Authoritymanager\Base.SqlServer\bin\Debug\Base.SqlServer.dll
+G:\Authoritymanager\Authoritymanager\Base.SqlServer\bin\Debug\Base.SqlServer.pdb
+G:\Authoritymanager\Authoritymanager\Base.SqlServer\obj\Debug\Base.SqlServer.csproj.CoreCompileInputs.cache
+G:\Authoritymanager\Authoritymanager\Base.SqlServer\obj\Debug\Base.SqlServer.dll
+G:\Authoritymanager\Authoritymanager\Base.SqlServer\obj\Debug\Base.SqlServer.pdb

@@ -1,0 +1,5 @@
+G:\Authoritymanager\Authoritymanager\Base.EntityFramework\bin\Debug\Base.EntityFramework.dll
+G:\Authoritymanager\Authoritymanager\Base.EntityFramework\bin\Debug\Base.EntityFramework.pdb
+G:\Authoritymanager\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.csproj.CoreCompileInputs.cache
+G:\Authoritymanager\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.dll
+G:\Authoritymanager\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.pdb

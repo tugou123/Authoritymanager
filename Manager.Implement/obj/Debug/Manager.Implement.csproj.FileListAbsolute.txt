@@ -1,0 +1,17 @@
+G:\Authoritymanager\Authoritymanager\Manager.Implement\obj\Debug\Manager.Implement.csproj.CoreCompileInputs.cache
+G:\Authoritymanager\Authoritymanager\Manager.Implement\bin\Debug\Manager.Implement.dll
+G:\Authoritymanager\Authoritymanager\Manager.Implement\bin\Debug\Manager.Implement.pdb
+G:\Authoritymanager\Authoritymanager\Manager.Implement\bin\Debug\Base.Info.dll
+G:\Authoritymanager\Authoritymanager\Manager.Implement\bin\Debug\Manager.Model.dll
+G:\Authoritymanager\Authoritymanager\Manager.Implement\bin\Debug\Mangaer.Contract.dll
+G:\Authoritymanager\Authoritymanager\Manager.Implement\bin\Debug\Newtonsoft.Json.dll
+G:\Authoritymanager\Authoritymanager\Manager.Implement\bin\Debug\Orleans.dll
+G:\Authoritymanager\Authoritymanager\Manager.Implement\bin\Debug\System.Collections.Immutable.dll
+G:\Authoritymanager\Authoritymanager\Manager.Implement\bin\Debug\System.Reflection.Metadata.dll
+G:\Authoritymanager\Authoritymanager\Manager.Implement\bin\Debug\Newtonsoft.Json.xml
+G:\Authoritymanager\Authoritymanager\Manager.Implement\bin\Debug\Orleans.xml
+G:\Authoritymanager\Authoritymanager\Manager.Implement\bin\Debug\System.Collections.Immutable.xml
+G:\Authoritymanager\Authoritymanager\Manager.Implement\bin\Debug\System.Reflection.Metadata.xml
+G:\Authoritymanager\Authoritymanager\Manager.Implement\obj\Debug\Manager.Implement.csprojResolveAssemblyReference.cache
+G:\Authoritymanager\Authoritymanager\Manager.Implement\obj\Debug\Manager.Implement.dll
+G:\Authoritymanager\Authoritymanager\Manager.Implement\obj\Debug\Manager.Implement.pdb

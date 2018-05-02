@@ -1,0 +1,16 @@
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\obj\Debug\Mangaer.Contract.csproj.CoreCompileInputs.cache
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\Mangaer.Contract.dll
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\Mangaer.Contract.pdb
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\Base.Info.dll
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\Manager.Model.dll
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\Newtonsoft.Json.dll
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\Orleans.dll
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\System.Collections.Immutable.dll
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\System.Reflection.Metadata.dll
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\Newtonsoft.Json.xml
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\Orleans.xml
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\System.Collections.Immutable.xml
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\System.Reflection.Metadata.xml
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\obj\Debug\Mangaer.Contract.dll
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\obj\Debug\Mangaer.Contract.pdb
+G:\Authoritymanager\Authoritymanager\Mangaer.Contract\obj\Debug\Mangaer.Contract.csprojResolveAssemblyReference.cache

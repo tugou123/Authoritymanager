@@ -1,0 +1,5 @@
+G:\Authoritymanager\Authoritymanager\Manager.Servces\bin\Debug\Manager.Servces.dll
+G:\Authoritymanager\Authoritymanager\Manager.Servces\bin\Debug\Manager.Servces.pdb
+G:\Authoritymanager\Authoritymanager\Manager.Servces\obj\Debug\Manager.Servces.csproj.CoreCompileInputs.cache
+G:\Authoritymanager\Authoritymanager\Manager.Servces\obj\Debug\Manager.Servces.dll
+G:\Authoritymanager\Authoritymanager\Manager.Servces\obj\Debug\Manager.Servces.pdb

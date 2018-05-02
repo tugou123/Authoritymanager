@@ -1,0 +1,5 @@
+G:\Authoritymanager\Authoritymanager\Manager.Model\bin\Debug\Manager.Model.dll
+G:\Authoritymanager\Authoritymanager\Manager.Model\bin\Debug\Manager.Model.pdb
+G:\Authoritymanager\Authoritymanager\Manager.Model\obj\Debug\Manager.Model.csproj.CoreCompileInputs.cache
+G:\Authoritymanager\Authoritymanager\Manager.Model\obj\Debug\Manager.Model.dll
+G:\Authoritymanager\Authoritymanager\Manager.Model\obj\Debug\Manager.Model.pdb

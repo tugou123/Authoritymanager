@@ -1,0 +1,6 @@
+G:\Authoritymanager\Authoritymanager\Base.Expand\bin\Debug\Base.Expand.dll
+G:\Authoritymanager\Authoritymanager\Base.Expand\bin\Debug\Base.Expand.pdb
+G:\Authoritymanager\Authoritymanager\Base.Expand\obj\Debug\Base.Expand.csproj.CoreCompileInputs.cache
+G:\Authoritymanager\Authoritymanager\Base.Expand\obj\Debug\Base.Expand.dll
+G:\Authoritymanager\Authoritymanager\Base.Expand\obj\Debug\Base.Expand.pdb
+G:\Authoritymanager\Authoritymanager\Base.Expand\obj\Debug\Base.Expand.csprojResolveAssemblyReference.cache

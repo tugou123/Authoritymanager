@@ -1,0 +1,5 @@
+G:\Authoritymanager\Authoritymanager\Base.Info\bin\Debug\Base.Info.dll
+G:\Authoritymanager\Authoritymanager\Base.Info\bin\Debug\Base.Info.pdb
+G:\Authoritymanager\Authoritymanager\Base.Info\obj\Debug\Base.Info.csproj.CoreCompileInputs.cache
+G:\Authoritymanager\Authoritymanager\Base.Info\obj\Debug\Base.Info.dll
+G:\Authoritymanager\Authoritymanager\Base.Info\obj\Debug\Base.Info.pdb
