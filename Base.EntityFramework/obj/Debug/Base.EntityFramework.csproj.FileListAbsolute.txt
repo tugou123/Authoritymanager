@@ -3,3 +3,7 @@ G:\Authoritymanager\Authoritymanager\Base.EntityFramework\bin\Debug\Base.EntityF
 G:\Authoritymanager\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.csproj.CoreCompileInputs.cache
 G:\Authoritymanager\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.dll
 G:\Authoritymanager\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.pdb
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\bin\Debug\Base.EntityFramework.dll
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\bin\Debug\Base.EntityFramework.pdb
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.dll
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.pdb

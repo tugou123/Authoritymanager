@@ -4,3 +4,8 @@ G:\Authoritymanager\Authoritymanager\Base.Expand\obj\Debug\Base.Expand.csproj.Co
 G:\Authoritymanager\Authoritymanager\Base.Expand\obj\Debug\Base.Expand.dll
 G:\Authoritymanager\Authoritymanager\Base.Expand\obj\Debug\Base.Expand.pdb
 G:\Authoritymanager\Authoritymanager\Base.Expand\obj\Debug\Base.Expand.csprojResolveAssemblyReference.cache
+G:\新建文件夹\Authoritymanager\Base.Expand\bin\Debug\Base.Expand.dll
+G:\新建文件夹\Authoritymanager\Base.Expand\bin\Debug\Base.Expand.pdb
+G:\新建文件夹\Authoritymanager\Base.Expand\obj\Debug\Base.Expand.csprojResolveAssemblyReference.cache
+G:\新建文件夹\Authoritymanager\Base.Expand\obj\Debug\Base.Expand.dll
+G:\新建文件夹\Authoritymanager\Base.Expand\obj\Debug\Base.Expand.pdb

@@ -3,3 +3,7 @@ G:\Authoritymanager\Authoritymanager\Base.Logging\bin\Debug\Base.Logging.pdb
 G:\Authoritymanager\Authoritymanager\Base.Logging\obj\Debug\Base.Logging.csproj.CoreCompileInputs.cache
 G:\Authoritymanager\Authoritymanager\Base.Logging\obj\Debug\Base.Logging.dll
 G:\Authoritymanager\Authoritymanager\Base.Logging\obj\Debug\Base.Logging.pdb
+G:\新建文件夹\Authoritymanager\Base.Logging\bin\Debug\Base.Logging.dll
+G:\新建文件夹\Authoritymanager\Base.Logging\bin\Debug\Base.Logging.pdb
+G:\新建文件夹\Authoritymanager\Base.Logging\obj\Debug\Base.Logging.dll
+G:\新建文件夹\Authoritymanager\Base.Logging\obj\Debug\Base.Logging.pdb

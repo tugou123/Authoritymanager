@@ -3,3 +3,14 @@ G:\Authoritymanager\Authoritymanager\Manager.Model\bin\Debug\Manager.Model.pdb
 G:\Authoritymanager\Authoritymanager\Manager.Model\obj\Debug\Manager.Model.csproj.CoreCompileInputs.cache
 G:\Authoritymanager\Authoritymanager\Manager.Model\obj\Debug\Manager.Model.dll
 G:\Authoritymanager\Authoritymanager\Manager.Model\obj\Debug\Manager.Model.pdb
+G:\新建文件夹\Authoritymanager\Manager.Model\bin\Debug\Manager.Model.dll
+G:\新建文件夹\Authoritymanager\Manager.Model\bin\Debug\Manager.Model.pdb
+G:\新建文件夹\Authoritymanager\Manager.Model\obj\Debug\Manager.Model.dll
+G:\新建文件夹\Authoritymanager\Manager.Model\obj\Debug\Manager.Model.pdb
+G:\新建文件夹\Authoritymanager\Manager.Model\bin\Debug\Manager.Model.dll.config
+G:\新建文件夹\Authoritymanager\Manager.Model\bin\Debug\Base.Info.dll
+G:\新建文件夹\Authoritymanager\Manager.Model\bin\Debug\EntityFramework.dll
+G:\新建文件夹\Authoritymanager\Manager.Model\bin\Debug\EntityFramework.SqlServer.dll
+G:\新建文件夹\Authoritymanager\Manager.Model\bin\Debug\EntityFramework.xml
+G:\新建文件夹\Authoritymanager\Manager.Model\bin\Debug\EntityFramework.SqlServer.xml
+G:\新建文件夹\Authoritymanager\Manager.Model\obj\Debug\Manager.Model.csprojResolveAssemblyReference.cache

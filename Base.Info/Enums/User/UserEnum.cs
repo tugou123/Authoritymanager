@@ -12,9 +12,20 @@ namespace Base.Info.Enums
     {
         [Display(Name ="超级管理员")]
         Super_administrator = 10,
-        [Display(Name = "LSM管理员")]
-        Guest_LSM =20,
-        [Display(Name = "LSM普通管理员")]
-        Ordinary_LSM = 30,
+        [Display(Name = "管理员")]
+        Guest =20,
+        [Display(Name = "会员")]
+        Ordinary = 30,
+    }
+
+
+
+    public enum Userlevel
+    {
+        [Display(Name ="普通会员")]
+         Common=10,
+        [Display(Name = "VIP")]
+        VIP =20
+
     }
 }

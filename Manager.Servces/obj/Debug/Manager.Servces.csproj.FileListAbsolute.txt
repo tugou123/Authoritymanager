@@ -3,3 +3,7 @@ G:\Authoritymanager\Authoritymanager\Manager.Servces\bin\Debug\Manager.Servces.p
 G:\Authoritymanager\Authoritymanager\Manager.Servces\obj\Debug\Manager.Servces.csproj.CoreCompileInputs.cache
 G:\Authoritymanager\Authoritymanager\Manager.Servces\obj\Debug\Manager.Servces.dll
 G:\Authoritymanager\Authoritymanager\Manager.Servces\obj\Debug\Manager.Servces.pdb
+G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\Manager.Servces.dll
+G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\Manager.Servces.pdb
+G:\新建文件夹\Authoritymanager\Manager.Servces\obj\Debug\Manager.Servces.dll
+G:\新建文件夹\Authoritymanager\Manager.Servces\obj\Debug\Manager.Servces.pdb
