@@ -29,7 +29,53 @@ namespace Manager.Servces
             await DbContext.SaveChangesAsync();
         }
 
+        public async Task DeleteUserinfo(long userid,long operatorid)
+        {
+           var _userinfo= DbContext.UserInfos.Where(n => n.Id == userid).FirstOrDefault();
+            if (_userinfo == null)
+            {
+                throw new Exception("tokenInfo instantiated object is empty");
+            }
+            _userinfo.IsDelete = true;
+            _userinfo.OperatorId = operatorid;
+
+            //记录日志
+          await  DbContext.SaveChangesAsync();
+
+        }
+
         public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// 查询
+        /// </summary>
+        /// <param name="operatorid"></param>
+        /// <returns></returns>
+        public async Task<IEnumerable<TokeninfoDto>> GetALLTokens(long operatorid)
+        {
+            //-- dapper;
+            return null;
+        }
+
+        public Task<IEnumerable<UserinfoDto>> GetAllUserinfo(long operatorid)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<TokeninfoDto> GetToken(long userid)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<TokeninfoDto> GetToken(string token)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<UserinfoDto> GetUserinfo(long userid, long operatorid)
         {
             throw new NotImplementedException();
         }
@@ -54,6 +100,21 @@ namespace Manager.Servces
                 LoginResult = LoginResultEnum.Success,
                 ResultloginUser = log
             };
+        }
+
+        public Task LogOut(long userid)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task UpdataUserInfo(long userid, long operatorid)
+        {
+         //   DbContext.UserInfos()
+        }
+
+        public Task UpdateToken(long userid)
+        {
+            throw new NotImplementedException();
         }
     }
 }

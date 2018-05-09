@@ -35,13 +35,17 @@ namespace Manager.Implement
                 throw new Exception("singtoken is invalid ");
             if (tokenInfo.ExpiryTime.HasValue)
                 throw new Exception("expirytime is invalid ");
-            return await _IUserAppService.CreataToken(tokenInfo);
+             await _IUserAppService.CreataToken(tokenInfo);
 
         }
 
-        public Task<bool> DeleteUserinfo(long userid)
+        public async Task DeleteUserinfo(long userid)
         {
-            throw new NotImplementedException();
+            if (userid <= 0)
+            {
+                throw new Exception("uid is invalid");
+            }
+
         }
 
         public Task<IEnumerable<TokeninfoDto>> GetALLTokens()
@@ -76,17 +80,17 @@ namespace Manager.Implement
             return await _IUserAppService.Login(username, password);
         }
 
-        public Task<bool> LogOut(long userid)
+        public Task LogOut(long userid)
         {
             throw new NotImplementedException();
         }
 
-        public Task<bool> UpdataUserInfo(long userid)
+        public Task UpdataUserInfo(long userid)
         {
             throw new NotImplementedException();
         }
 
-        public Task<bool> UpdateToken(long userid)
+        public Task UpdateToken(long userid)
         {
             throw new NotImplementedException();
         }

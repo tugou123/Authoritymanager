@@ -62,7 +62,16 @@ namespace Manager.Model.Model
         /// 登陆 次数
         /// </summary>
          public int LoginCount { set; get; }
+        /// <summary>
+        /// 是否启用
+        /// </summary>
+        public  bool IsActive { set; get; }
+        /// <summary>
+        /// 是否删除
+        /// </summary>
+       public bool IsDelete { set; get; }
 
-        
+
+        public long OperatorId { set; get; }
     }
 }

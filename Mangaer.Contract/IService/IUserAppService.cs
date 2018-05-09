@@ -23,5 +23,59 @@ namespace Mangaer.Contract.IService
         /// <param name="tokenInfo"></param>
         /// <returns></returns>
         Task CreataToken(TokenInfo tokenInfo);
+
+
+       /// <summary>
+       /// 删除用户信息
+       /// </summary>
+       /// <param name="userid"></param>
+       /// <returns></returns>
+        Task DeleteUserinfo(long userid, long operatorid);
+        /// <summary>
+        /// 获取所有Token
+        /// </summary>
+        /// <returns></returns>
+        Task<IEnumerable<TokeninfoDto>> GetALLTokens(long operatorid);
+        /// <summary>
+        /// 获取所有的用户信息
+        /// </summary>
+        /// <returns></returns>
+        Task<IEnumerable<UserinfoDto>> GetAllUserinfo(long operatorid);
+        /// <summary>
+        /// 获取Token
+        /// </summary>
+        /// <param name="token"></param>
+        /// <returns></returns>
+        Task<TokeninfoDto> GetToken(string token);
+        /// <summary>
+        /// 获取Token
+        /// </summary>
+        /// <param name="userid"></param>
+        /// <returns></returns>
+        Task<TokeninfoDto> GetToken(long userid);
+        /// <summary>
+        /// 获取用户
+        /// </summary>
+        /// <param name="userid"></param>
+        /// <returns></returns>
+        Task<UserinfoDto> GetUserinfo(long userid, long operatorid);
+       /// <summary>
+       /// 退出
+       /// </summary>
+       /// <param name="userid"></param>
+       /// <returns></returns>
+        Task LogOut(long userid);
+        /// <summary>
+        /// 更新用户
+        /// </summary>
+        /// <param name="userid"></param>
+        /// <returns></returns>
+        Task UpdataUserInfo(long userid, long operatorid);
+        /// <summary>
+        /// 更新Token
+        /// </summary>
+        /// <param name="userid"></param>
+        /// <returns></returns>
+        Task UpdateToken(long userid);
     }
 }

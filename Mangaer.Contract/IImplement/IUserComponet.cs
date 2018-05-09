@@ -27,7 +27,7 @@ namespace Mangaer.Contract.IImplement
         /// </summary>
         /// <param name="userid"></param>
         /// <returns></returns>
-        Task<bool> LogOut(long userid);
+        Task LogOut(long userid);
         /// <summary>
         /// 创建Token
         /// </summary>
@@ -40,7 +40,7 @@ namespace Mangaer.Contract.IImplement
         /// </summary>
         /// <param name="userid"></param>
         /// <returns></returns>
-        Task<bool> UpdateToken(long userid);
+        Task UpdateToken(long userid);
         /// <summary>
         /// 获取Token
         /// </summary>
@@ -77,13 +77,13 @@ namespace Mangaer.Contract.IImplement
         /// 更新用户信息
         /// </summary>
         /// <returns></returns>
-        Task<bool> UpdataUserInfo(long userid);
+        Task UpdataUserInfo(long userid);
         /// <summary>
         /// 删除用户信息
         /// </summary>
         /// <param name="userid"></param>
         /// <returns></returns>
-        Task<bool> DeleteUserinfo(long userid);
+        Task DeleteUserinfo(long userid);
 
         #endregion
 

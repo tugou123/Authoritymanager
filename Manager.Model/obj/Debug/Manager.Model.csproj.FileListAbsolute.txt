@@ -13,7 +13,6 @@ G:\新建文件夹\Authoritymanager\Manager.Model\bin\Debug\EntityFramework.dll
 G:\新建文件夹\Authoritymanager\Manager.Model\bin\Debug\EntityFramework.SqlServer.dll
 G:\新建文件夹\Authoritymanager\Manager.Model\bin\Debug\EntityFramework.xml
 G:\新建文件夹\Authoritymanager\Manager.Model\bin\Debug\EntityFramework.SqlServer.xml
-G:\新建文件夹\Authoritymanager\Manager.Model\obj\Debug\Manager.Model.csprojResolveAssemblyReference.cache
 G:\Authoritymanager\Authoritymanager\Manager.Model\bin\Debug\Manager.Model.dll.config
 G:\Authoritymanager\Authoritymanager\Manager.Model\bin\Debug\Base.Info.dll
 G:\Authoritymanager\Authoritymanager\Manager.Model\bin\Debug\EntityFramework.dll

@@ -7,3 +7,13 @@ G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\Manager.Servces.dl
 G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\Manager.Servces.pdb
 G:\新建文件夹\Authoritymanager\Manager.Servces\obj\Debug\Manager.Servces.dll
 G:\新建文件夹\Authoritymanager\Manager.Servces\obj\Debug\Manager.Servces.pdb
+G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\Manager.Servces.dll.config
+G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\Base.EntityFramework.dll
+G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\Base.Info.dll
+G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\EntityFramework.dll
+G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\EntityFramework.SqlServer.dll
+G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\Manager.Model.dll
+G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\Mangaer.Contract.dll
+G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\EntityFramework.xml
+G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\EntityFramework.SqlServer.xml
+G:\新建文件夹\Authoritymanager\Manager.Servces\obj\Debug\Manager.Servces.csprojResolveAssemblyReference.cache
