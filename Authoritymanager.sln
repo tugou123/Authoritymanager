@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{AEB687F2-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.Model", "Manager.Model\Manager.Model.csproj", "{F5185DD2-0BA2-4333-A8F3-1B30F76794BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.DoXMl", "Manager.DoXMl\Manager.DoXMl.csproj", "{DB2F98EE-36C0-4793-9E23-24F3707F1670}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{F5185DD2-0BA2-4333-A8F3-1B30F76794BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5185DD2-0BA2-4333-A8F3-1B30F76794BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5185DD2-0BA2-4333-A8F3-1B30F76794BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2F98EE-36C0-4793-9E23-24F3707F1670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2F98EE-36C0-4793-9E23-24F3707F1670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2F98EE-36C0-4793-9E23-24F3707F1670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2F98EE-36C0-4793-9E23-24F3707F1670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{E540912E-2607-413A-9216-CBC013266A75} = {AEB687F2-E35B-4572-A9BF-6647604625FC}
 		{5465936B-7DBA-41FF-8659-E78336D934B2} = {AEB687F2-E35B-4572-A9BF-6647604625FC}
 		{0025DEAE-6889-4506-A35B-4FE24CD335E5} = {AEB687F2-E35B-4572-A9BF-6647604625FC}
+		{DB2F98EE-36C0-4793-9E23-24F3707F1670} = {AEB687F2-E35B-4572-A9BF-6647604625FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A896A644-1789-4644-8FFA-3E0E2D0C591C}

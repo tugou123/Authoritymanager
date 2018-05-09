@@ -1,0 +1,7 @@
+G:\Authoritymanager\Authoritymanager\Manager.DoXMl\bin\Debug\Manager.DoXMl.dll
+G:\Authoritymanager\Authoritymanager\Manager.DoXMl\bin\Debug\Manager.DoXMl.pdb
+G:\Authoritymanager\Authoritymanager\Manager.DoXMl\bin\Debug\Manager.Model.dll
+G:\Authoritymanager\Authoritymanager\Manager.DoXMl\bin\Debug\Base.Info.dll
+G:\Authoritymanager\Authoritymanager\Manager.DoXMl\obj\Debug\Manager.DoXMl.csproj.CoreCompileInputs.cache
+G:\Authoritymanager\Authoritymanager\Manager.DoXMl\obj\Debug\Manager.DoXMl.dll
+G:\Authoritymanager\Authoritymanager\Manager.DoXMl\obj\Debug\Manager.DoXMl.pdb

@@ -38,7 +38,7 @@ namespace Manager.Model.Model
         /// </summary>
         [Display(Name = "过期时间")]
        
-        public DateTime ExpiryTime { set; get; }
+        public DateTime? ExpiryTime { set; get; }
 
     }
 }

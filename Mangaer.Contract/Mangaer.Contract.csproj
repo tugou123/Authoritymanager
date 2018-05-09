@@ -58,18 +58,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dtos\LoginUser.cs" />
+    <Compile Include="Dtos\ResultLoginUser.cs" />
+    <Compile Include="Dtos\LoginUserDto.cs" />
+    <Compile Include="Dtos\TokeninfoDto.cs" />
+    <Compile Include="Dtos\UserinfoDto.cs" />
     <Compile Include="IImplement\ISysLogComponet.cs" />
     <Compile Include="IImplement\IUserComponet.cs" />
+    <Compile Include="IService\IUserAppService.cs" />
     <Compile Include="ITest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="IService\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>

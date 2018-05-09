@@ -7,3 +7,11 @@ G:\新建文件夹\Authoritymanager\Base.EntityFramework\bin\Debug\Base.EntityFr
 G:\新建文件夹\Authoritymanager\Base.EntityFramework\bin\Debug\Base.EntityFramework.pdb
 G:\新建文件夹\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.dll
 G:\新建文件夹\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.pdb
+G:\Authoritymanager\Authoritymanager\Base.EntityFramework\bin\Debug\Base.EntityFramework.dll.config
+G:\Authoritymanager\Authoritymanager\Base.EntityFramework\bin\Debug\EntityFramework.dll
+G:\Authoritymanager\Authoritymanager\Base.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+G:\Authoritymanager\Authoritymanager\Base.EntityFramework\bin\Debug\Manager.Model.dll
+G:\Authoritymanager\Authoritymanager\Base.EntityFramework\bin\Debug\Base.Info.dll
+G:\Authoritymanager\Authoritymanager\Base.EntityFramework\bin\Debug\EntityFramework.xml
+G:\Authoritymanager\Authoritymanager\Base.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+G:\Authoritymanager\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.csprojResolveAssemblyReference.cache

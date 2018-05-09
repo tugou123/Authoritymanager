@@ -13,7 +13,6 @@ G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\System.Collectio
 G:\Authoritymanager\Authoritymanager\Mangaer.Contract\bin\Debug\System.Reflection.Metadata.xml
 G:\Authoritymanager\Authoritymanager\Mangaer.Contract\obj\Debug\Mangaer.Contract.dll
 G:\Authoritymanager\Authoritymanager\Mangaer.Contract\obj\Debug\Mangaer.Contract.pdb
-G:\Authoritymanager\Authoritymanager\Mangaer.Contract\obj\Debug\Mangaer.Contract.csprojResolveAssemblyReference.cache
 G:\新建文件夹\Authoritymanager\Mangaer.Contract\bin\Debug\Mangaer.Contract.dll
 G:\新建文件夹\Authoritymanager\Mangaer.Contract\bin\Debug\Mangaer.Contract.pdb
 G:\新建文件夹\Authoritymanager\Mangaer.Contract\bin\Debug\Base.Info.dll

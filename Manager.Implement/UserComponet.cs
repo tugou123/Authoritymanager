@@ -5,70 +5,90 @@ using System.Text;
 using System.Threading.Tasks;
 using Base.Info.Enums;
 using Manager.Model.InputeMode;
+using Manager.Model.Model;
 using Mangaer.Contract.Dtos;
 using Mangaer.Contract.IImplement;
+using Mangaer.Contract.IService;
 using Orleans;
 namespace Manager.Implement
 {
     public class UserComponet : ComponetBase, IUserComponet
     {
-        public async Task<LoginResultEnum> Login(string username, string password, Action<LoginUser> lou)
+        private IUserAppService _IUserAppService;
+        public UserComponet(IUserAppService iUserAppService)
         {
-            await Task.Delay(1);
+            _IUserAppService = iUserAppService;
+        }
+        /// <summary>
+        /// 创建Token
+        /// </summary>
+        /// <param name="userid"></param>
+        /// <returns></returns>
+        public async Task CreataToken(TokenInfo tokenInfo)
+        {
+            //产生Token
+            if (tokenInfo == null)
+                throw new Exception("token instantiated object is empty");
+            if (tokenInfo.UserInfoId <= 0)
+                throw new Exception("uid is invalid ");
+            if (string.IsNullOrEmpty(tokenInfo.SingToken))
+                throw new Exception("singtoken is invalid ");
+            if (tokenInfo.ExpiryTime.HasValue)
+                throw new Exception("expirytime is invalid ");
+            return await _IUserAppService.CreataToken(tokenInfo);
 
-            if (string.IsNullOrEmpty(username) || string.IsNullOrWhiteSpace(password))
-                return LoginResultEnum.UserNameOrPasswordError;
-            if (username != "123")
-                return LoginResultEnum.UserNameUnExists;
-            if (password != "123")
-                return LoginResultEnum.VerifyCodeError;
+        }
 
+        public Task<bool> DeleteUserinfo(long userid)
+        {
+            throw new NotImplementedException();
+        }
 
-            var log = new LoginUser()
-            {
-                Id = 1,
-                Brower = "1",
-                IsSaler = true,
-                UserType = "系统管理员",
-                Password = "123",
-                RemenberMe = true,
-                UId = 1,
-                UserName = "123"
-            };
-            //异步机制不支持out /ref 参数传递 --解决方案:用Action / Func 委托 逆向传值
-            lou.Invoke(log);
-            return LoginResultEnum.Success;
+        public Task<IEnumerable<TokeninfoDto>> GetALLTokens()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<UserinfoDto>> GetAllUserinfo()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<TokeninfoDto> GetToken(string token)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<TokeninfoDto> GetToken(long userid)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<UserinfoDto> GetUserinfo(long userid)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<LoginUserDto> Login(string username, string password)
         {
-            await Task.Delay(1);
-
             if (string.IsNullOrEmpty(username) || string.IsNullOrWhiteSpace(password))
-                return new LoginUserDto() {LoginResult=LoginResultEnum.UserNameOrPasswordError};
-            if (username != "123")
                 return new LoginUserDto() { LoginResult = LoginResultEnum.UserNameUnExists };
-            if (password != "123")
-                return new LoginUserDto() { LoginResult = LoginResultEnum.VerifyCodeError };
-            var log = new LoginUser()
-            {
-                Id = 1,
-                Brower = "1",
-                IsSaler = true,
-                UserType = "系统管理员",
-                Password = "123",
-                RemenberMe = true,
-                UId = 1,
-                UserName = "123"
-            };
-            //异步机制不支持out /ref 参数传递 --解决方案:用Action / Func 委托 逆向传值
+            return await _IUserAppService.Login(username, password);
+        }
 
-            return new LoginUserDto
-            {
-                LoginResult = LoginResultEnum.Success,
-                loginUser= log
-            };
-           // return await Task.FromResult(LoginResultEnum.Success);
+        public Task<bool> LogOut(long userid)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> UpdataUserInfo(long userid)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> UpdateToken(long userid)
+        {
+            throw new NotImplementedException();
         }
     }
 }

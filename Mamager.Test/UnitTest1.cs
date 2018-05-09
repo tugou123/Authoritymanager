@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Base.Expand;
 using Manager.Model.InputeMode;
 using Mangaer.Contract;
 using Mangaer.Contract.IImplement;
@@ -15,6 +16,11 @@ namespace Mamager.Test
         [TestMethod]
         public async Task TestMethod1()
         {
+
+            var token = DESEncrypt.Encrypt(string.Format("{0}{1}", Guid.NewGuid().ToString("D"), DateTime.Now.Ticks));
+
+            token = token.Substring(11, 31);
+            var TX= Guid.NewGuid().ToString("D").Substring(0, 10);
             var config = ClientConfiguration.LocalhostSilo();
 
             GrainClient.Initialize(config);

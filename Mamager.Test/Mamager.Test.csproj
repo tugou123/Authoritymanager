@@ -38,6 +38,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Base.Expand">
+      <HintPath>..\dlls\Base.Expand.dll</HintPath>
+    </Reference>
     <Reference Include="Base.Info, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\dlls\Base.Info.dll</HintPath>
