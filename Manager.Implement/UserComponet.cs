@@ -39,13 +39,13 @@ namespace Manager.Implement
 
         }
 
-        public async Task DeleteUserinfo(long userid)
+        public async Task DeleteUserinfo(long userid,long operatorid)
         {
             if (userid <= 0)
             {
                 throw new Exception("uid is invalid");
             }
-
+            await _IUserAppService.DeleteUserinfo(userid, operatorid);
         }
 
         public Task<IEnumerable<TokeninfoDto>> GetALLTokens()
@@ -82,10 +82,12 @@ namespace Manager.Implement
 
         public Task LogOut(long userid)
         {
+            //删除token、
+            //记录日志
             throw new NotImplementedException();
         }
 
-        public Task UpdataUserInfo(long userid)
+        public Task UpdataUserInfo(UserinfoDto userinfo)
         {
             throw new NotImplementedException();
         }

@@ -10,6 +10,7 @@ namespace Mangaer.Contract.IService
 {
     public interface  IUserAppService:IDisposable
     {
+       
         /// <summary>
         /// 登陆
         /// </summary>
@@ -23,8 +24,6 @@ namespace Mangaer.Contract.IService
         /// <param name="tokenInfo"></param>
         /// <returns></returns>
         Task CreataToken(TokenInfo tokenInfo);
-
-
        /// <summary>
        /// 删除用户信息
        /// </summary>
@@ -78,4 +77,6 @@ namespace Mangaer.Contract.IService
         /// <returns></returns>
         Task UpdateToken(long userid);
     }
+
+
 }

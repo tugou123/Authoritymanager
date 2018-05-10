@@ -77,13 +77,13 @@ namespace Mangaer.Contract.IImplement
         /// 更新用户信息
         /// </summary>
         /// <returns></returns>
-        Task UpdataUserInfo(long userid);
+        Task UpdataUserInfo(UserinfoDto userinfo);
         /// <summary>
         /// 删除用户信息
         /// </summary>
         /// <param name="userid"></param>
         /// <returns></returns>
-        Task DeleteUserinfo(long userid);
+        Task DeleteUserinfo(long userid,long operatorid);
 
         #endregion
 

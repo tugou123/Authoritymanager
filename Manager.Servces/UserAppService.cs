@@ -28,7 +28,7 @@ namespace Manager.Servces
             DbContext.TokenInfos.Add(tokenInfo);
             await DbContext.SaveChangesAsync();
         }
-
+    
         public async Task DeleteUserinfo(long userid,long operatorid)
         {
            var _userinfo= DbContext.UserInfos.Where(n => n.Id == userid).FirstOrDefault();
