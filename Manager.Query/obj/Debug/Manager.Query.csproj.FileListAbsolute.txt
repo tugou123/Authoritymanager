@@ -1,0 +1,11 @@
+G:\Authoritymanager\Authoritymanager\Manager.Query\bin\Debug\Manager.Query.dll
+G:\Authoritymanager\Authoritymanager\Manager.Query\bin\Debug\Manager.Query.pdb
+G:\Authoritymanager\Authoritymanager\Manager.Query\bin\Debug\Base.Expand.dll
+G:\Authoritymanager\Authoritymanager\Manager.Query\bin\Debug\Base.Info.dll
+G:\Authoritymanager\Authoritymanager\Manager.Query\bin\Debug\Base.SqlServer.dll
+G:\Authoritymanager\Authoritymanager\Manager.Query\bin\Debug\Manager.Model.dll
+G:\Authoritymanager\Authoritymanager\Manager.Query\bin\Debug\Mangaer.Contract.dll
+G:\Authoritymanager\Authoritymanager\Manager.Query\obj\Debug\Manager.Query.csprojResolveAssemblyReference.cache
+G:\Authoritymanager\Authoritymanager\Manager.Query\obj\Debug\Manager.Query.csproj.CoreCompileInputs.cache
+G:\Authoritymanager\Authoritymanager\Manager.Query\obj\Debug\Manager.Query.dll
+G:\Authoritymanager\Authoritymanager\Manager.Query\obj\Debug\Manager.Query.pdb

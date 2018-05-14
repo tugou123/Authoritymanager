@@ -89,7 +89,11 @@ namespace Manager.Implement
 
         public Task UpdataUserInfo(UserinfoDto userinfo)
         {
-            throw new NotImplementedException();
+            
+            if (userinfo.Id<=0)
+                throw new Exception("uid is invalid");
+           await _IUserAppService.UpdataUserInfo(userinfo,1);
+            userinfo.MapTo<>
         }
 
         public Task UpdateToken(long userid)

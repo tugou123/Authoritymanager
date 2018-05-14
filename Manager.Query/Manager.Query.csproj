@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A405D3F7-4192-4BE4-BAD5-155A2F603255}</ProjectGuid>
+    <ProjectGuid>{90C5FA0A-19E6-4D91-B3C6-DEB2E9D61316}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Mangaer.Contract</RootNamespace>
-    <AssemblyName>Mangaer.Contract</AssemblyName>
+    <RootNamespace>Manager.Query</RootNamespace>
+    <AssemblyName>Manager.Query</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,26 +30,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Base.Expand">
+      <HintPath>..\dlls\Base.Expand.dll</HintPath>
+    </Reference>
     <Reference Include="Base.Info">
       <HintPath>..\dlls\Base.Info.dll</HintPath>
+    </Reference>
+    <Reference Include="Base.SqlServer">
+      <HintPath>..\dlls\Base.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Manager.Model">
       <HintPath>..\dlls\Manager.Model.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Orleans, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Orleans.Core.1.4.0\lib\net451\Orleans.dll</HintPath>
+    <Reference Include="Mangaer.Contract">
+      <HintPath>..\dlls\Mangaer.Contract.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Collections.Immutable, Version=1.1.37.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Collections.Immutable.1.1.37\lib\dotnet\System.Collections.Immutable.dll</HintPath>
-    </Reference>
     <Reference Include="System.Core" />
-    <Reference Include="System.Reflection.Metadata, Version=1.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Reflection.Metadata.1.2.0\lib\portable-net45+win8\System.Reflection.Metadata.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,26 +55,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dtos\ResultLoginUser.cs" />
-    <Compile Include="Dtos\LoginUserDto.cs" />
-    <Compile Include="Dtos\TokeninfoDto.cs" />
-    <Compile Include="Dtos\UserinfoDto.cs" />
-    <Compile Include="IImplement\ISysLogComponet.cs" />
-    <Compile Include="IImplement\IUserComponet.cs" />
-    <Compile Include="IService\IQuery\IUserAppServiceQuery.cs" />
-    <Compile Include="IService\IUserAppService.cs" />
-    <Compile Include="ITest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PreBuildEvent>
-    </PreBuildEvent>
-  </PropertyGroup>
   <PropertyGroup>
     <PostBuildEvent>copy /Y "$(TargetDir)$(ProjectName).dll" "$(SolutionDir)\dlls"</PostBuildEvent>
   </PropertyGroup>

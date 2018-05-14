@@ -54,5 +54,9 @@ namespace Manager.Model.Model
         /// </summary>
         [Required]
         public  long UserInfoId { set; get; }
+        /// <summary>
+        /// TokenId
+        /// </summary>
+        public  long TokenId { set; get; }
     }
 }
