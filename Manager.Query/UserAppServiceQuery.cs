@@ -1,4 +1,5 @@
-﻿using Mangaer.Contract.Dtos;
+﻿using Dapper;
+using Mangaer.Contract.Dtos;
 using Mangaer.Contract.IService.IQuery;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,13 @@ namespace Manager.Query
     //这里用Darper
     public class UserAppServiceQuery : IUserAppServiceQuery
     {
+         
         public Task<IEnumerable<TokeninfoDto>> GetALLTokens(long operatorid)
         {
-            throw new NotImplementedException();
+            using (var mx=new Dto.UserDao())
+            {
+               await 
+            }
         }
 
         public Task<IEnumerable<UserinfoDto>> GetAllUserinfo(long operatorid)
