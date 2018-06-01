@@ -29,3 +29,4 @@ G:\新建文件夹\Authoritymanager\Mangaer.Contract\obj\Debug\Mangaer.Contract.
 G:\新建文件夹\Authoritymanager\Mangaer.Contract\obj\Debug\Mangaer.Contract.pdb
 G:\新建文件夹\Authoritymanager\Mangaer.Contract\obj\Debug\Mangaer.Contract.csprojResolveAssemblyReference.cache
 G:\Authoritymanager\Authoritymanager\Mangaer.Contract\obj\Debug\Mangaer.Contract.csprojResolveAssemblyReference.cache
+G:\新建文件夹\Authoritymanager\Mangaer.Contract\bin\Debug\Base.Expand.dll

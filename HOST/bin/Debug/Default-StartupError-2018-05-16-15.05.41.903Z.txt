@@ -1,0 +1,15 @@
+2018-05-16-15.05.41.903ZZ
+ERROR starting Orleans silo name=Default Exception=
+Exc level 0: System.Reflection.AmbiguousMatchException: 发现不明确的匹配。
+   在 System.RuntimeType.GetPropertyImpl(String name, BindingFlags bindingAttr, Binder binder, Type returnType, Type[] types, ParameterModifier[] modifiers)
+   在 System.Type.GetProperty(String name, BindingFlags bindingAttr)
+   在 Orleans.CodeGenerator.SerializerGenerator.FieldInfoMember.get_PropertyInfo()
+   在 Orleans.CodeGenerator.SerializerGenerator.FieldInfoMember.get_IsGettableProperty()
+   在 Orleans.CodeGenerator.SerializerGenerator.GenerateStaticFields(List`1 fields)
+   在 Orleans.CodeGenerator.SerializerGenerator.GenerateClass(Type type, Action`1 onEncounteredType)
+   在 Orleans.CodeGenerator.RoslynCodeGenerator.GenerateForAssemblies(List`1 assemblies, Boolean runtime)
+   在 Orleans.CodeGenerator.RoslynCodeGenerator.GenerateAndLoadForAssemblies(Assembly[] inputs)
+   在 Orleans.CodeGeneration.CodeGeneratorManager.GenerateAndLoadForAssemblies(Assembly[] inputs)
+   在 Orleans.Runtime.AssemblyProcessor.Initialize()
+   在 Orleans.Runtime.Silo..ctor(SiloInitializationParameters initializationParams)
+   在 Orleans.Runtime.Host.SiloHost.InitializeOrleansSilo()

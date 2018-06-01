@@ -6,18 +6,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Orleans;
 namespace Manager.Query
 {
     //这里用Darper
-    public class UserAppServiceQuery : IUserAppServiceQuery
+    public class UserAppServiceQuery :Grain, IUserAppServiceQuery
     {
          
         public Task<IEnumerable<TokeninfoDto>> GetALLTokens(long operatorid)
         {
             using (var mx=new Dto.UserDao())
             {
-               await 
+                return null;
             }
         }
 

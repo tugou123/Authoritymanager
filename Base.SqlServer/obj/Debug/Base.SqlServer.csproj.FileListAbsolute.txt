@@ -7,3 +7,4 @@ G:\新建文件夹\Authoritymanager\Base.SqlServer\bin\Debug\Base.SqlServer.dll
 G:\新建文件夹\Authoritymanager\Base.SqlServer\bin\Debug\Base.SqlServer.pdb
 G:\新建文件夹\Authoritymanager\Base.SqlServer\obj\Debug\Base.SqlServer.dll
 G:\新建文件夹\Authoritymanager\Base.SqlServer\obj\Debug\Base.SqlServer.pdb
+G:\新建文件夹\Authoritymanager\Base.SqlServer\obj\Debug\Base.SqlServer.csprojResolveAssemblyReference.cache

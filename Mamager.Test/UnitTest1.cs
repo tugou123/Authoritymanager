@@ -34,9 +34,16 @@ namespace Mamager.Test
             //var response = await userService.GetTicksFromService() ;
             //  var response = await userService.Login("123", "123");
             LoginUser loginUser=null;
-            var tol0 = await user.Login("123", "123");
-          //  var tx = await user.Login("", "", (i) => i = loginUser);
-          //  Console.WriteLine("\n\n{0}\n\n", tol0);
+            var tol0 = await user.Login("test", "test");
+
+            if (tol0.LoginResult == Base.Info.Enums.LoginResultEnum.Success)
+            {
+
+
+
+                user.CreataToken(new Manager.Model.Model.TokenInfo() { ExpiryTime = DateTime.Now.AddMinutes(2), SingToken = token, UserInfoId = tol0.ResultloginUser.Id }).Wait();
+            }
+         
         }
     }
 

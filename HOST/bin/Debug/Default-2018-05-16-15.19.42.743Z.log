@@ -1,0 +1,549 @@
+[2018-05-16 15:19:43.019 GMT     1	INFO   	100404	Silo	127.0.0.1:22222]	Silo starting with GC settings: ServerGC=False GCLatencyMode=Interactive	
+[2018-05-16 15:19:43.024 GMT     1	WARNING	100405	Silo	127.0.0.1:22222]	Note: Silo not running with ServerGC turned on or with GCLatencyMode.Batch enabled - recommend checking app config : <configuration>-<runtime>-<gcServer enabled="true"> and <configuration>-<runtime>-<gcConcurrent enabled="false"/>	
+[2018-05-16 15:19:43.025 GMT     1	WARNING	100405	Silo	127.0.0.1:22222]	Note: ServerGC only kicks in on multi-core systems (settings enabling ServerGC have no effect on single-core machines).	
+[2018-05-16 15:19:43.026 GMT     1	INFO   	100403	Silo	127.0.0.1:22222]	-------------- Initializing Primary silo on host LAPTOP-R9P4JODR MachineName LAPTOP-R9P4JODR at 127.0.0.1:22222, gen 264179982 --------------	
+[2018-05-16 15:19:43.058 GMT     1	INFO   	100415	Silo	127.0.0.1:22222]	Starting silo Default with the following configuration= 
+Config File Name: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\OrleansConfiguration.xml
+Host: LAPTOP-R9P4JODR
+Start time: 2018-05-16 15:19:43.028 GMT
+Primary node: 127.0.0.1:22222
+Platform version info:
+   Orleans version: 1.4.0.0 (Release).
+   .NET version: 4.0.30319.42000
+   Is .NET 4.5=True
+   OS version: Microsoft Windows NT 6.2.9200.0
+   GC Type=Client GCLatencyMode=Interactive
+Global configuration:
+   System Ids:
+      ServiceId: 00000000-0000-0000-0000-000000000000
+      DeploymentId: 
+   Subnet: 
+   Seed nodes: 127.0.0.1:22222
+   Messaging:
+       Response timeout: 00:00:30
+       Maximum resend count: 0
+       Resend On Timeout: False
+       Maximum Socket Age: 10675199.02:48:05.4775807
+       Drop Expired Messages: True
+       Silo Sender queues: 4
+       Gateway Sender queues: 4
+       Client Drop Timeout: 00:01:00
+       Buffer Pool Buffer Size: 4096
+       Buffer Pool Max Size: 10000
+       Buffer Pool Preallocation Size: 250
+       Maximum forward count: 2
+       Fallback serializer: 
+   Liveness:
+      LivenessEnabled: True
+      LivenessType: MembershipTableGrain
+      ProbeTimeout: 00:00:10
+      TableRefreshTimeout: 00:01:00
+      DeathVoteExpirationTimeout: 00:02:00
+      NumMissedProbesLimit: 3
+      NumProbedSilos: 3
+      NumVotesForDeathDeclaration: 2
+      UseLivenessGossip: True
+      ValidateInitialConnectivity: True
+      IAmAliveTablePublishTimeout: 00:05:00
+      NumMissedTableIAmAliveLimit: 2
+      MaxJoinAttemptTime: 00:05:00
+      ExpectedClusterSize: 20
+   MultiClusterNetwork: N/A
+   SystemStore:
+      SystemStore ConnectionString: null
+      Reminders ConnectionString: null
+   Application:
+      Defaults:
+         Deactivate if idle for: 02:00:00
+
+   PlacementStrategy: 
+         Default Placement Strategy: RandomPlacement
+         Deployment Load Publisher Refresh Time: 00:00:01
+         Activation CountBased Placement Choose Out Of: 2
+   Grain directory cache:
+      Maximum size: 1000000 grains
+      Initial TTL: 00:00:30
+      Maximum TTL: 00:04:00
+      TTL extension factor: 2.00
+      Directory Caching Strategy: Adaptive
+   Grain directory:
+      Lazy deregistration delay: 00:01:00
+      Client registration refresh: 00:05:00
+   Reminder Service:
+       ReminderServiceType: ReminderTableGrain
+   Consistent Ring:
+       Use Virtual Buckets Consistent Ring: True
+       Num Virtual Buckets Consistent Ring: 30
+   Providers:
+       StorageProviders:
+           Name=MemoryStore, Type=Orleans.Storage.MemoryStorage, Properties=[]
+           Name=Default, Type=Orleans.Storage.MemoryStorage, Properties=[]
+
+Silo configuration:
+   Silo Name: Default
+   Generation: 264179982
+   Host Name or IP Address: localhost
+   DNS Host Name: LAPTOP-R9P4JODR
+   Port: 22222
+   Subnet: 
+   Preferred Address Family: InterNetwork
+   Proxy Gateway: 127.0.0.1:40000
+   IsPrimaryNode: True
+   Scheduler: 
+         Max Active Threads: 4
+         Processor Count: 4
+         Delay Warning Threshold: 00:00:10
+         Activation Scheduling Quantum: 00:00:00.1000000
+         Turn Warning Length Threshold: 00:00:00.2000000
+         Inject More Worker Threads: False
+         MinDotNetThreadPoolSize: 200
+         .NET thread pool sizes - Min: Worker Threads=4 Completion Port Threads=4
+         .NET thread pool sizes - Max: Worker Threads=2047 Completion Port Threads=1000
+         .NET ServicePointManager - DefaultConnectionLimit=200 Expect100Continue=False UseNagleAlgorithm=False
+   Load Shedding Enabled: False
+   Load Shedding Limit: 95
+   SiloShutdownEventName: 
+   Debug: 
+   Tracing: 
+     Default Trace Level: Info
+     TraceLevelOverrides:
+         Application ==> Info
+     Trace to Console: True
+     Trace File Name: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Default-2018-05-16-15.19.42.743Z.log
+     LargeMessageWarningThreshold: 85000
+     PropagateActivityId: False
+     BulkMessageLimit: 1000
+   Statistics: 
+     MetricsTableWriteInterval: 00:00:30
+     PerfCounterWriteInterval: 00:00:30
+     LogWriteInterval: 00:05:00
+     WriteLogStatisticsToTable: True
+     StatisticsCollectionLevel: Info
+
+	
+[2018-05-16 15:19:47.933 GMT     1	WARNING	103801	CodeGenerator	127.0.0.1:22222]	Compilation of assembly OrleansCodeGen failed with errors:
+(1,26931): error CS0266: Cannot implicitly convert type 'object' to 'long'. An explicit conversion exists (are you missing a cast?)
+(1,29064): error CS0266: Cannot implicitly convert type 'object' to 'long'. An explicit conversion exists (are you missing a cast?)
+Generated Source Code:
+[assembly: global::System.CodeDom.Compiler.GeneratedCodeAttribute("Orleans-CodeGenerator", "1.4.0.0")]
+[assembly: global::Orleans.CodeGeneration.OrleansCodeGenerationTargetAttribute("HOST, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"), global::Orleans.CodeGeneration.OrleansCodeGenerationTargetAttribute("Mangaer.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"), global::Orleans.CodeGeneration.OrleansCodeGenerationTargetAttribute("Manager.Implement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null")]
+namespace Mangaer.Contract
+{
+    using global::Orleans.Async;
+    using global::Orleans;
+    using global::System.Reflection;
+
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Orleans-CodeGenerator", "1.4.0.0"), global::System.SerializableAttribute, global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute, global::Orleans.CodeGeneration.GrainReferenceAttribute(typeof (global::Mangaer.Contract.ITest))]
+    internal class OrleansCodeGenTestReference : global::Orleans.Runtime.GrainReference, global::Mangaer.Contract.ITest
+    {
+        protected @OrleansCodeGenTestReference(global::Orleans.Runtime.GrainReference @other): base (@other)
+        {
+        }
+
+        protected @OrleansCodeGenTestReference(global::System.Runtime.Serialization.SerializationInfo @info, global::System.Runtime.Serialization.StreamingContext @context): base (@info, @context)
+        {
+        }
+
+        protected override global::System.Int32 InterfaceId
+        {
+            get
+            {
+                return -187492859;
+            }
+        }
+
+        public override global::System.String InterfaceName
+        {
+            get
+            {
+                return "global::Mangaer.Contract.ITest";
+            }
+        }
+
+        public override global::System.Boolean @IsCompatible(global::System.Int32 @interfaceId)
+        {
+            return @interfaceId == -187492859 || @interfaceId == -1277021679;
+        }
+
+        protected override global::System.String @GetMethodName(global::System.Int32 @interfaceId, global::System.Int32 @methodId)
+        {
+            switch (@interfaceId)
+            {
+                case -187492859:
+                    switch (@methodId)
+                    {
+                        case 560551129:
+                            return "Holle";
+                        case -1256896228:
+                            return "GetName";
+                        default:
+                            throw new global::System.NotImplementedException("interfaceId=" + -187492859 + ",methodId=" + @methodId);
+                    }
+
+                case -1277021679:
+                    switch (@methodId)
+                    {
+                        default:
+                            throw new global::System.NotImplementedException("interfaceId=" + -1277021679 + ",methodId=" + @methodId);
+                    }
+
+                default:
+                    throw new global::System.NotImplementedException("interfaceId=" + @interfaceId);
+            }
+        }
+
+        public global::System.Threading.Tasks.Task<global::System.String> @Holle()
+        {
+            return base.@InvokeMethodAsync<global::System.String>(560551129, null);
+        }
+
+        public global::System.Threading.Tasks.Task<global::System.String> @GetName()
+        {
+            return base.@InvokeMethodAsync<global::System.String>(-1256896228, null);
+        }
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Orleans-CodeGenerator", "1.4.0.0"), global::Orleans.CodeGeneration.MethodInvokerAttribute(typeof (global::Mangaer.Contract.ITest), -187492859), global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute]
+    internal class OrleansCodeGenTestMethodInvoker : global::Orleans.CodeGeneration.IGrainMethodInvoker
+    {
+        public global::System.Threading.Tasks.Task<global::System.Object> @Invoke(global::Orleans.Runtime.IAddressable @grain, global::Orleans.CodeGeneration.InvokeMethodRequest @request)
+        {
+            global::System.Int32 interfaceId = @request.@InterfaceId;
+            global::System.Int32 methodId = @request.@MethodId;
+            global::System.Object[] arguments = @request.@Arguments;
+            if (@grain == null)
+                throw new global::System.ArgumentNullException("grain");
+            switch (interfaceId)
+            {
+                case -187492859:
+                    switch (methodId)
+                    {
+                        case 560551129:
+                            return ((global::Mangaer.Contract.ITest)@grain).@Holle().@Box();
+                        case -1256896228:
+                            return ((global::Mangaer.Contract.ITest)@grain).@GetName().@Box();
+                        default:
+                            throw new global::System.NotImplementedException("interfaceId=" + -187492859 + ",methodId=" + methodId);
+                    }
+
+                case -1277021679:
+                    switch (methodId)
+                    {
+                        default:
+                            throw new global::System.NotImplementedException("interfaceId=" + -1277021679 + ",methodId=" + methodId);
+                    }
+
+                default:
+                    throw new global::System.NotImplementedException("interfaceId=" + interfaceId);
+            }
+        }
+
+        public global::System.Int32 InterfaceId
+        {
+            get
+            {
+                return -187492859;
+            }
+        }
+    }
+}
+
+namespace Mangaer.Contract.IImplement
+{
+    using global::Orleans.Async;
+    using global::Orleans;
+    using global::System.Reflection;
+
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Orleans-CodeGenerator", "1.4.0.0"), global::System.SerializableAttribute, global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute, global::Orleans.CodeGeneration.GrainReferenceAttribute(typeof (global::Mangaer.Contract.IImplement.ISysLogComponet))]
+    internal class OrleansCodeGenSysLogComponetReference : global::Orleans.Runtime.GrainReference, global::Mangaer.Contract.IImplement.ISysLogComponet
+    {
+        protected @OrleansCodeGenSysLogComponetReference(global::Orleans.Runtime.GrainReference @other): base (@other)
+        {
+        }
+
+        protected @OrleansCodeGenSysLogComponetReference(global::System.Runtime.Serialization.SerializationInfo @info, global::System.Runtime.Serialization.StreamingContext @context): base (@info, @context)
+        {
+        }
+
+        protected override global::System.Int32 InterfaceId
+        {
+            get
+            {
+                return -1188834720;
+            }
+        }
+
+        public override global::System.String InterfaceName
+        {
+            get
+            {
+                return "global::Mangaer.Contract.IImplement.ISysLogComponet";
+            }
+        }
+
+        public override global::System.Boolean @IsCompatible(global::System.Int32 @interfaceId)
+        {
+            return @interfaceId == -1188834720 || @interfaceId == -1277021679;
+        }
+
+        protected override global::System.String @GetMethodName(global::System.Int32 @interfaceId, global::System.Int32 @methodId)
+        {
+            switch (@interfaceId)
+            {
+                case -1188834720:
+                    switch (@methodId)
+                    {
+                        case 942499524:
+                            return "Add";
+                        case 77303206:
+                            return "Update";
+                        default:
+                            throw new global::System.NotImplementedException("interfaceId=" + -1188834720 + ",methodId=" + @methodId);
+                    }
+
+                case -1277021679:
+                    switch (@methodId)
+                    {
+                        default:
+                            throw new global::System.NotImplementedException("interfaceId=" + -1277021679 + ",methodId=" + @methodId);
+                    }
+
+                default:
+                    throw new global::System.NotImplementedException("interfaceId=" + @interfaceId);
+            }
+        }
+
+        public global::System.Threading.Tasks.Task @Add(global::Manager.Model.InputeMode.Log @log)
+        {
+            return base.@InvokeMethodAsync<global::System.Object>(942499524, new global::System.Object[]{@log});
+        }
+
+        public global::System.Threading.Tasks.Task @Update(global::Manager.Model.InputeMode.Log @log)
+        {
+            return base.@InvokeMethodAsync<global::System.Object>(77303206, new global::System.Object[]{@log});
+        }
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Orleans-CodeGenerator", "1.4.0.0"), global::Orleans.CodeGeneration.MethodInvokerAttribute(typeof (global::Mangaer.Contract.IImplement.ISysLogComponet), -1188834720), global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute]
+    internal class OrleansCodeGenSysLogComponetMethodInvoker : global::Orleans.CodeGeneration.IGrainMethodInvoker
+    {
+        public global::System.Threading.Tasks.Task<global::System.Object> @Invoke(global::Orleans.Runtime.IAddressable @grain, global::Orleans.CodeGeneration.InvokeMethodRequest @request)
+        {
+            global::System.Int32 interfaceId = @request.@InterfaceId;
+            global::System.Int32 methodId = @request.@MethodId;
+            global::System.Object[] arguments = @request.@Arguments;
+            if (@grain == null)
+                throw new global::System.ArgumentNullException("grain");
+            switch (interfaceId)
+            {
+                case -1188834720:
+                    switch (methodId)
+                    {
+                        case 942499524:
+                            return ((global::Mangaer.Contract.IImplement.ISysLogComponet)@grain).@Add((global::Manager.Model.InputeMode.Log)arguments[0]).@Box();
+                        case 77303206:
+                            return ((global::Mangaer.Contract.IImplement.ISysLogComponet)@grain).@Update((global::Manager.Model.InputeMode.Log)arguments[0]).@Box();
+                        default:
+                            throw new global::System.NotImplementedException("interfaceId=" + -1188834720 + ",methodId=" + methodId);
+                    }
+
+                case -1277021679:
+                    switch (methodId)
+                    {
+                        default:
+                            throw new global::System.NotImplementedException("interfaceId=" + -1277021679 + ",methodId=" + methodId);
+                    }
+
+                default:
+                    throw new global::System.NotImplementedException("interfaceId=" + interfaceId);
+            }
+        }
+
+        public global::System.Int32 InterfaceId
+        {
+            get
+            {
+                return -1188834720;
+            }
+        }
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Orleans-CodeGenerator", "1.4.0.0"), global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute, global::Orleans.CodeGeneration.SerializerAttribute(typeof (global::Manager.Model.InputeMode.Log))]
+    internal class OrleansCodeGenManager_Model_InputeMode_LogSerializer
+    {
+        [global::Orleans.CodeGeneration.CopierMethodAttribute]
+        public static global::System.Object DeepCopier(global::System.Object original, global::Orleans.Serialization.ICopyContext context)
+        {
+            global::Manager.Model.InputeMode.Log input = ((global::Manager.Model.InputeMode.Log)original);
+            global::Manager.Model.InputeMode.Log result = new global::Manager.Model.InputeMode.Log();
+            context.@RecordCopy(original, result);
+            result.@Action = input.@Action;
+            result.@CreateDate = input.@CreateDate;
+            result.@CreatorLoginName = input.@CreatorLoginName;
+            result.@Detail = input.@Detail;
+            result.@EndTime = input.@EndTime;
+            result.@HostName = input.@HostName;
+            result.@Id = input.@Id;
+            result.@IpAddress = input.@IpAddress;
+            result.@UserId = input.@UserId;
+            return result;
+        }
+
+        [global::Orleans.CodeGeneration.SerializerMethodAttribute]
+        public static void Serializer(global::System.Object untypedInput, global::Orleans.Serialization.ISerializationContext context, global::System.Type expected)
+        {
+            global::Manager.Model.InputeMode.Log input = (global::Manager.Model.InputeMode.Log)untypedInput;
+            global::Orleans.Serialization.SerializationManager.@SerializeInner(input.@Action, context, typeof (global::System.String));
+            global::Orleans.Serialization.SerializationManager.@SerializeInner(input.@CreateDate, context, typeof (global::System.DateTime));
+            global::Orleans.Serialization.SerializationManager.@SerializeInner(input.@CreatorLoginName, context, typeof (global::System.String));
+            global::Orleans.Serialization.SerializationManager.@SerializeInner(input.@Detail, context, typeof (global::System.String));
+            global::Orleans.Serialization.SerializationManager.@SerializeInner(input.@EndTime, context, typeof (global::System.DateTime));
+            global::Orleans.Serialization.SerializationManager.@SerializeInner(input.@HostName, context, typeof (global::System.String));
+            global::Orleans.Serialization.SerializationManager.@SerializeInner(input.@Id, context, typeof (global::System.Int32));
+            global::Orleans.Serialization.SerializationManager.@SerializeInner(input.@IpAddress, context, typeof (global::System.String));
+            global::Orleans.Serialization.SerializationManager.@SerializeInner(input.@UserId, context, typeof (global::System.Int32));
+        }
+
+        [global::Orleans.CodeGeneration.DeserializerMethodAttribute]
+        public static global::System.Object Deserializer(global::System.Type expected, global::Orleans.Serialization.IDeserializationContext context)
+        {
+            global::Manager.Model.InputeMode.Log result = new global::Manager.Model.InputeMode.Log();
+            context.@RecordObject(result);
+            result.@Action = (global::System.String)global::Orleans.Serialization.SerializationManager.@DeserializeInner(typeof (global::System.String), context);
+            result.@CreateDate = (global::System.DateTime)global::Orleans.Serialization.SerializationManager.@DeserializeInner(typeof (global::System.DateTime), context);
+            result.@CreatorLoginName = (global::System.String)global::Orleans.Serialization.SerializationManager.@DeserializeInner(typeof (global::System.String), context);
+            result.@Detail = (global::System.String)global::Orleans.Serialization.SerializationManager.@DeserializeInner(typeof (global::System.String), context);
+            result.@EndTime = (global::System.DateTime)global::Orleans.Serialization.SerializationManager.@DeserializeInner(typeof (global::System.DateTime), context);
+            result.@HostName = (global::System.String)global::Orleans.Serialization.SerializationManager.@DeserializeInner(typeof (global::System.String), context);
+            result.@Id = (global::System.Int32)global::Orleans.Serialization.SerializationManager.@DeserializeInner(typeof (global::System.Int32), context);
+            result.@IpAddress = (global::System.String)global::Orleans.Serialization.SerializationManager.@DeserializeInner(typeof (global::System.String), context);
+            result.@UserId = (global::System.Int32)global::Orleans.Serialization.SerializationManager.@DeserializeInner(typeof (global::System.Int32), context);
+            return (global::Manager.Model.InputeMode.Log)result;
+        }
+    }
+
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Orleans-CodeGenerator", "1.4.0.0"), global::System.SerializableAttribute, global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute, global::Orleans.CodeGeneration.GrainReferenceAttribute(typeof (global::Mangaer.Contract.IImplement.IUserComponet))]
+    internal class OrleansCodeGenUserComponetReference : global::Orleans.Runtime.GrainReference, global::Mangaer.Contract.IImplement.IUserComponet
+    {
+        protected @OrleansCodeGenUserComponetReference(global::Orleans.Runtime.GrainReference @other): base (@other)
+        {
+        }
+
+        protected @OrleansCodeGenUserComponetReference(global::System.Runtime.Serialization.SerializationInfo @info, global::System.Runtime.Serialization.StreamingContext @context): base (@info, @context)
+        {
+        }
+
+        protected override global::System.Int32 InterfaceId
+        {
+            get
+            {
+                return -2054593082;
+            }
+        }
+
+        public override global::System.String InterfaceName
+        {
+            get
+            {
+                return "global::Mangaer.Contract.IImplement.IUserComponet";
+            }
+        }
+
+        public override global::System.Boolean @IsCompatible(global::System.Int32 @interfaceId)
+        {
+            return @interfaceId == -2054593082 || @interfaceId == -1277021679;
+        }
+
+        protected override global::System.String @GetMethodName(global::System.Int32 @interfaceId, global::System.Int32 @methodId)
+        {
+            switch (@interfaceId)
+            {
+                case -2054593082:
+                    switch (@methodId)
+                    {
+                        case 1415878300:
+                            return "Login";
+                        case -1097231156:
+                            return "LogOut";
+                        case -1634155607:
+                            return "CreataToken";
+                        case 1608595794:
+                            return "UpdateToken";
+                        case -220920283:
+                            return "GetToken";
+                        case 428461695:
+                            return "GetToken";
+                        case -554152605:
+                            return "GetALLTokens";
+                        case 1421189630:
+                            return "GetUserinfo";
+                        case 213187528:
+                            return "GetAllUserinfo";
+                        case -597379599:
+                            return "UpdataUserInfo";
+                        case 1464446018:
+                            return "DeleteUserinfo";
+                        default:
+                            throw new global::System.NotImplementedException("interfaceId=" + -2054593082 + ",methodId=" + @methodId);
+                    }
+
+                case -1277021679:
+                    switch (@methodId)
+                    {
+                        default:
+                            throw new global::System.NotImplementedException("interfaceId=" + -1277021679 + ",methodId=" + @methodId);
+                    }
+
+                default:
+                    throw new global::System.NotImplementedException("interfaceId=" + @interfaceId);
+            }
+        }
+
+        public global::System.Threading.Tasks.Task<global::Mangaer.Contract.Dtos.LoginUserDto> @Login(global::System.String @username, global::System.String @password)
+        {
+            return base.@InvokeMethodAsync<global::Mangaer.Contract.Dtos.Lo. MESSAGE TRUNCATED AT THIS POINT!! Max message size = 20000	
+[2018-05-16 15:19:48.006 GMT     1	WARNING	102701	CodeGenerator	127.0.0.1:22222]	Previous log message was truncated - Max size = 20000	
+[2018-05-16 15:19:48.030 GMT     1	WARNING	103801	CodeGenerator	127.0.0.1:22222]	Exception generating code for input assemblies:
+HOST, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Mangaer.Contract, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Manager.Implement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Exception: 
+Exc level 0: Orleans.CodeGenerator.CodeGenerationException: (1,26931): error CS0266: Cannot implicitly convert type 'object' to 'long'. An explicit conversion exists (are you missing a cast?)
+(1,29064): error CS0266: Cannot implicitly convert type 'object' to 'long'. An explicit conversion exists (are you missing a cast?)
+   在 Orleans.CodeGenerator.CodeGeneratorCommon.CompileAssembly(GeneratedSyntax generatedSyntax, String assemblyName, Boolean emitDebugSymbols)
+   在 Orleans.CodeGenerator.RoslynCodeGenerator.CompileAndLoad(GeneratedSyntax generatedSyntax, Boolean emitDebugSymbols)
+   在 Orleans.CodeGenerator.RoslynCodeGenerator.GenerateAndLoadForAssemblies(Assembly[] inputs)	
+Exc level 0: Orleans.CodeGenerator.CodeGenerationException: (1,26931): error CS0266: Cannot implicitly convert type 'object' to 'long'. An explicit conversion exists (are you missing a cast?)
+(1,29064): error CS0266: Cannot implicitly convert type 'object' to 'long'. An explicit conversion exists (are you missing a cast?)
+   在 Orleans.CodeGenerator.CodeGeneratorCommon.CompileAssembly(GeneratedSyntax generatedSyntax, String assemblyName, Boolean emitDebugSymbols)
+   在 Orleans.CodeGenerator.RoslynCodeGenerator.CompileAndLoad(GeneratedSyntax generatedSyntax, Boolean emitDebugSymbols)
+   在 Orleans.CodeGenerator.RoslynCodeGenerator.GenerateAndLoadForAssemblies(Assembly[] inputs)
+[2018-05-16 15:19:48.046 GMT     1	ERROR  	100105	OrleansSiloHost	127.0.0.1:22222]	!!!!!!!!!! ERROR starting Orleans silo name=Default Exception=
+Exc level 0: Orleans.CodeGenerator.CodeGenerationException: (1,26931): error CS0266: Cannot implicitly convert type 'object' to 'long'. An explicit conversion exists (are you missing a cast?)
+(1,29064): error CS0266: Cannot implicitly convert type 'object' to 'long'. An explicit conversion exists (are you missing a cast?)
+   在 Orleans.CodeGenerator.CodeGeneratorCommon.CompileAssembly(GeneratedSyntax generatedSyntax, String assemblyName, Boolean emitDebugSymbols)
+   在 Orleans.CodeGenerator.RoslynCodeGenerator.CompileAndLoad(GeneratedSyntax generatedSyntax, Boolean emitDebugSymbols)
+   在 Orleans.CodeGenerator.RoslynCodeGenerator.GenerateAndLoadForAssemblies(Assembly[] inputs)
+   在 Orleans.CodeGeneration.CodeGeneratorManager.GenerateAndLoadForAssemblies(Assembly[] inputs)
+   在 Orleans.Runtime.AssemblyProcessor.Initialize()
+   在 Orleans.Runtime.Silo..ctor(SiloInitializationParameters initializationParams)
+   在 Orleans.Runtime.Host.SiloHost.InitializeOrleansSilo()	
+Exc level 0: Orleans.CodeGenerator.CodeGenerationException: (1,26931): error CS0266: Cannot implicitly convert type 'object' to 'long'. An explicit conversion exists (are you missing a cast?)
+(1,29064): error CS0266: Cannot implicitly convert type 'object' to 'long'. An explicit conversion exists (are you missing a cast?)
+   在 Orleans.CodeGenerator.CodeGeneratorCommon.CompileAssembly(GeneratedSyntax generatedSyntax, String assemblyName, Boolean emitDebugSymbols)
+   在 Orleans.CodeGenerator.RoslynCodeGenerator.CompileAndLoad(GeneratedSyntax generatedSyntax, Boolean emitDebugSymbols)
+   在 Orleans.CodeGenerator.RoslynCodeGenerator.GenerateAndLoadForAssemblies(Assembly[] inputs)
+   在 Orleans.CodeGeneration.CodeGeneratorManager.GenerateAndLoadForAssemblies(Assembly[] inputs)
+   在 Orleans.Runtime.AssemblyProcessor.Initialize()
+   在 Orleans.Runtime.Silo..ctor(SiloInitializationParameters initializationParams)
+   在 Orleans.Runtime.Host.SiloHost.InitializeOrleansSilo()
+[2018-05-16 15:19:48.065 GMT     1	ERROR  	100105	OrleansSiloHost	127.0.0.1:22222]	!!!!!!!!!! ERROR starting Orleans silo name=Default Exception=
+Exc level 0: System.InvalidOperationException: Cannot start silo Default due to prior initialization error
+   在 Orleans.Runtime.Host.SiloHost.StartOrleansSilo(Boolean catchExceptions)	
+Exc level 0: System.InvalidOperationException: Cannot start silo Default due to prior initialization error
+   在 Orleans.Runtime.Host.SiloHost.StartOrleansSilo(Boolean catchExceptions)
+[2018-05-16 15:19:48.086 GMT     1	ERROR  	100105	OrleansSiloHost	127.0.0.1:22222]	!!!!!!!!!! ERROR starting Orleans silo name=Default Exception=
+Exc level 0: System.SystemException: Failed to start Orleans silo 'Default' as a Primary node.
+   在 HOST.OrleansHostWrapper.get_Run() 位置 G:\新建文件夹\Authoritymanager\HOST\OrleansHostWrapper.cs:行号 142	
+Exc level 0: System.SystemException: Failed to start Orleans silo 'Default' as a Primary node.
+   在 HOST.OrleansHostWrapper.get_Run() 位置 G:\新建文件夹\Authoritymanager\HOST\OrleansHostWrapper.cs:行号 142

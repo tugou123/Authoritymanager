@@ -45,10 +45,17 @@ namespace HOST
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IMyTest, MyTest>();
+
+            services.AddTransient<Mangaer.Contract.IService.IUserAppService, Manager.Servces.UserAppService>();
             //services.AddTransient<User.QueryContract.IQuerySeverce.ITestDemo, User.QueryServerce.TestDemo>();
 
             //var connection = "server=.;uid=sa;pwd=123456;database=codefirst";
+
             //services.AddDbContext<DataContext>(options => options.UseSqlServer(connection));
+
+            //services.Scan(scan => scan.FromAssemblyOf<IUser>()
+            //   .AddClasses().UsingAttributes());
+
 
             #region  注入 需要处理
             //var container = new WindsorContainer();

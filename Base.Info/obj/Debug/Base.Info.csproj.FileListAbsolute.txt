@@ -7,4 +7,3 @@ G:\新建文件夹\Authoritymanager\Base.Info\bin\Debug\Base.Info.dll
 G:\新建文件夹\Authoritymanager\Base.Info\bin\Debug\Base.Info.pdb
 G:\新建文件夹\Authoritymanager\Base.Info\obj\Debug\Base.Info.dll
 G:\新建文件夹\Authoritymanager\Base.Info\obj\Debug\Base.Info.pdb
-G:\新建文件夹\Authoritymanager\Base.Info\obj\Debug\Base.Info.csprojResolveAssemblyReference.cache

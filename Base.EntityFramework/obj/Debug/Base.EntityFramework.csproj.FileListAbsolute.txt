@@ -15,3 +15,15 @@ G:\Authoritymanager\Authoritymanager\Base.EntityFramework\bin\Debug\Base.Info.dl
 G:\Authoritymanager\Authoritymanager\Base.EntityFramework\bin\Debug\EntityFramework.xml
 G:\Authoritymanager\Authoritymanager\Base.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
 G:\Authoritymanager\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.csprojResolveAssemblyReference.cache
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\bin\Debug\Base.EntityFramework.dll.config
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\bin\Debug\EntityFramework.dll
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\bin\Debug\Manager.Model.dll
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\bin\Debug\Base.Info.dll
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\bin\Debug\EntityFramework.xml
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.Migrations.PaperTest.resources
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.csproj.GenerateResource.Cache
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.csprojResolveAssemblyReference.cache
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.Migrations.Update_TableName.resources
+G:\新建文件夹\Authoritymanager\Base.EntityFramework\obj\Debug\Base.EntityFramework.Migrations.Update_Table_ID.resources

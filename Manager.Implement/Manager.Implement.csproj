@@ -70,7 +70,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Base.Expand\Base.Expand.csproj">
+      <Project>{5465936B-7DBA-41FF-8659-E78336D934B2}</Project>
+      <Name>Base.Expand</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>copy /Y "$(TargetDir)$(ProjectName).dll" "$(SolutionDir)\dlls"</PostBuildEvent>

@@ -99,3 +99,4 @@ G:\新建文件夹\Authoritymanager\Mamager.Test\bin\Debug\System.Reflection.Met
 G:\新建文件夹\Authoritymanager\Mamager.Test\obj\Debug\Mamager.Test.csprojResolveAssemblyReference.cache
 G:\新建文件夹\Authoritymanager\Mamager.Test\obj\Debug\Mamager.Test.dll
 G:\新建文件夹\Authoritymanager\Mamager.Test\obj\Debug\Mamager.Test.pdb
+G:\新建文件夹\Authoritymanager\Mamager.Test\bin\Debug\Base.Expand.dll

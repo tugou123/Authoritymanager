@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Manager.Model.Model
 {
-    [Table("Manager_TokenInfos")]
+    [Table("Sys_TokenInfos")]
     //==============================================================
     //  作者：三秋  (***@qq.com)
     //  时间：2018/5/5 14:36:07
@@ -20,7 +20,9 @@ namespace Manager.Model.Model
     //==============================================================
     public class TokenInfo : BaseModel
     {
-        public new long Id { set; get; }
+        //private long _id;
+        //[Key]
+        //public new long Id { set { _id = value; } get { return _id; } }
         /// <summary>
         /// Token
         /// </summary>

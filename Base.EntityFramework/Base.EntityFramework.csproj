@@ -55,11 +55,35 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entity.cs" />
+    <Compile Include="Migrations\201805161331427_PaperTest.cs" />
+    <Compile Include="Migrations\201805161331427_PaperTest.Designer.cs">
+      <DependentUpon>201805161331427_PaperTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805161338183_Update_TableName.cs" />
+    <Compile Include="Migrations\201805161338183_Update_TableName.Designer.cs">
+      <DependentUpon>201805161338183_Update_TableName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805161519129_Update_Table_ID.cs" />
+    <Compile Include="Migrations\201805161519129_Update_Table_ID.Designer.cs">
+      <DependentUpon>201805161519129_Update_Table_ID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201805161331427_PaperTest.resx">
+      <DependentUpon>201805161331427_PaperTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805161338183_Update_TableName.resx">
+      <DependentUpon>201805161338183_Update_TableName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805161519129_Update_Table_ID.resx">
+      <DependentUpon>201805161519129_Update_Table_ID.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

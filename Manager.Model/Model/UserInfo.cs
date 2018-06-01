@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Manager.Model.Model
 {
-    [Table("Manager_Userinfos")]
+    [Table("Userinfos")]
     //==============================================================
     //  作者：三秋  (***@qq.com)
     //  时间：2018/5/5 14:14:06
@@ -21,7 +21,9 @@ namespace Manager.Model.Model
     //==============================================================
     public class UserInfo:BaseModel
     {
-       public new  long Id { get; set; }
+        //private long _id;
+        //[Key]
+        //public new long Id { set { _id = value; } get { return _id; } }
         /// <summary>
         /// 用户名
         /// </summary>

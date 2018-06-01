@@ -1,5 +1,6 @@
 ﻿using Base.EntityFramework;
 using Base.Info.Enums;
+using Base.NET;
 using Manager.Model.Model;
 using Mangaer.Contract.Dtos;
 using Mangaer.Contract.IService;
@@ -58,23 +59,26 @@ namespace Manager.Servces
             _userinfo.LoginCount += 1;
             var log = new ResultLoginUser()
             {
-                Id = 1,
+                Id = _userinfo.Id,
                 UserName = _userinfo.UserName
             };
 
             //异步机制不支持out /ref 参数传递 --解决方案:用Action / Func 委托 逆向传值
-
-            var loginLog = new LoginLog()
+            //获取本机器的IP
+           var loginLog = new LoginLog()
             {
                 CreateDate = DateTime.Now,
-                Dns = "DNS",
-                IpAddress = "127.0.0.1",
-                Port = 4400,
-                Proxyport = 12240,
+                Dns = NET.GetHostName,
+                IpAddress = NET.IP,
+                Port = NET.Proint,
+                Proxyport = NET.Proxyport,
                 UserInfoId = _userinfo.Id
 
         };
-        await DbContext.SaveChangesAsync();
+            //写入日志
+         DbContext.LoginLogs.Add(loginLog);
+        
+         await DbContext.SaveChangesAsync();
             return new LoginUserDto
             {
                 LoginResult = LoginResultEnum.Success,

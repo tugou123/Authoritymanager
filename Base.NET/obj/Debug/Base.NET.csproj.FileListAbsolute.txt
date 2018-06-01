@@ -1,0 +1,5 @@
+G:\新建文件夹\Authoritymanager\Base.NET\bin\Debug\Base.NET.dll
+G:\新建文件夹\Authoritymanager\Base.NET\bin\Debug\Base.NET.pdb
+G:\新建文件夹\Authoritymanager\Base.NET\obj\Debug\Base.NET.csprojResolveAssemblyReference.cache
+G:\新建文件夹\Authoritymanager\Base.NET\obj\Debug\Base.NET.dll
+G:\新建文件夹\Authoritymanager\Base.NET\obj\Debug\Base.NET.pdb

@@ -1,0 +1,380 @@
+[2018-05-30 12:34:54.771 GMT     1	INFO   	100404	Silo	127.0.0.1:22222]	Silo starting with GC settings: ServerGC=False GCLatencyMode=Interactive	
+[2018-05-30 12:34:54.776 GMT     1	WARNING	100405	Silo	127.0.0.1:22222]	Note: Silo not running with ServerGC turned on or with GCLatencyMode.Batch enabled - recommend checking app config : <configuration>-<runtime>-<gcServer enabled="true"> and <configuration>-<runtime>-<gcConcurrent enabled="false"/>	
+[2018-05-30 12:34:54.777 GMT     1	WARNING	100405	Silo	127.0.0.1:22222]	Note: ServerGC only kicks in on multi-core systems (settings enabling ServerGC have no effect on single-core machines).	
+[2018-05-30 12:34:54.778 GMT     1	INFO   	100403	Silo	127.0.0.1:22222]	-------------- Initializing Primary silo on host LAPTOP-R9P4JODR MachineName LAPTOP-R9P4JODR at 127.0.0.1:22222, gen 265379694 --------------	
+[2018-05-30 12:34:54.813 GMT     1	INFO   	100415	Silo	127.0.0.1:22222]	Starting silo Default with the following configuration= 
+Config File Name: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\OrleansConfiguration.xml
+Host: LAPTOP-R9P4JODR
+Start time: 2018-05-30 12:34:54.781 GMT
+Primary node: 127.0.0.1:22222
+Platform version info:
+   Orleans version: 1.4.0.0 (Release).
+   .NET version: 4.0.30319.42000
+   Is .NET 4.5=True
+   OS version: Microsoft Windows NT 6.2.9200.0
+   GC Type=Client GCLatencyMode=Interactive
+Global configuration:
+   System Ids:
+      ServiceId: 00000000-0000-0000-0000-000000000000
+      DeploymentId: 
+   Subnet: 
+   Seed nodes: 127.0.0.1:22222
+   Messaging:
+       Response timeout: 00:00:30
+       Maximum resend count: 0
+       Resend On Timeout: False
+       Maximum Socket Age: 10675199.02:48:05.4775807
+       Drop Expired Messages: True
+       Silo Sender queues: 4
+       Gateway Sender queues: 4
+       Client Drop Timeout: 00:01:00
+       Buffer Pool Buffer Size: 4096
+       Buffer Pool Max Size: 10000
+       Buffer Pool Preallocation Size: 250
+       Maximum forward count: 2
+       Fallback serializer: 
+   Liveness:
+      LivenessEnabled: True
+      LivenessType: MembershipTableGrain
+      ProbeTimeout: 00:00:10
+      TableRefreshTimeout: 00:01:00
+      DeathVoteExpirationTimeout: 00:02:00
+      NumMissedProbesLimit: 3
+      NumProbedSilos: 3
+      NumVotesForDeathDeclaration: 2
+      UseLivenessGossip: True
+      ValidateInitialConnectivity: True
+      IAmAliveTablePublishTimeout: 00:05:00
+      NumMissedTableIAmAliveLimit: 2
+      MaxJoinAttemptTime: 00:05:00
+      ExpectedClusterSize: 20
+   MultiClusterNetwork: N/A
+   SystemStore:
+      SystemStore ConnectionString: null
+      Reminders ConnectionString: null
+   Application:
+      Defaults:
+         Deactivate if idle for: 02:00:00
+
+   PlacementStrategy: 
+         Default Placement Strategy: RandomPlacement
+         Deployment Load Publisher Refresh Time: 00:00:01
+         Activation CountBased Placement Choose Out Of: 2
+   Grain directory cache:
+      Maximum size: 1000000 grains
+      Initial TTL: 00:00:30
+      Maximum TTL: 00:04:00
+      TTL extension factor: 2.00
+      Directory Caching Strategy: Adaptive
+   Grain directory:
+      Lazy deregistration delay: 00:01:00
+      Client registration refresh: 00:05:00
+   Reminder Service:
+       ReminderServiceType: ReminderTableGrain
+   Consistent Ring:
+       Use Virtual Buckets Consistent Ring: True
+       Num Virtual Buckets Consistent Ring: 30
+   Providers:
+       StorageProviders:
+           Name=MemoryStore, Type=Orleans.Storage.MemoryStorage, Properties=[]
+           Name=Default, Type=Orleans.Storage.MemoryStorage, Properties=[]
+
+Silo configuration:
+   Silo Name: Default
+   Generation: 265379694
+   Host Name or IP Address: localhost
+   DNS Host Name: LAPTOP-R9P4JODR
+   Port: 22222
+   Subnet: 
+   Preferred Address Family: InterNetwork
+   Proxy Gateway: 127.0.0.1:40000
+   IsPrimaryNode: True
+   Scheduler: 
+         Max Active Threads: 4
+         Processor Count: 4
+         Delay Warning Threshold: 00:00:10
+         Activation Scheduling Quantum: 00:00:00.1000000
+         Turn Warning Length Threshold: 00:00:00.2000000
+         Inject More Worker Threads: False
+         MinDotNetThreadPoolSize: 200
+         .NET thread pool sizes - Min: Worker Threads=4 Completion Port Threads=4
+         .NET thread pool sizes - Max: Worker Threads=2047 Completion Port Threads=1000
+         .NET ServicePointManager - DefaultConnectionLimit=200 Expect100Continue=False UseNagleAlgorithm=False
+   Load Shedding Enabled: False
+   Load Shedding Limit: 95
+   SiloShutdownEventName: 
+   Debug: 
+   Tracing: 
+     Default Trace Level: Info
+     TraceLevelOverrides:
+         Application ==> Info
+     Trace to Console: True
+     Trace File Name: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Default-2018-05-30-12.34.54.343Z.log
+     LargeMessageWarningThreshold: 85000
+     PropagateActivityId: False
+     BulkMessageLimit: 1000
+   Statistics: 
+     MetricsTableWriteInterval: 00:00:30
+     PerfCounterWriteInterval: 00:00:30
+     LogWriteInterval: 00:05:00
+     WriteLogStatisticsToTable: True
+     StatisticsCollectionLevel: Info
+
+	
+[2018-05-30 12:35:00.771 GMT     1	INFO   	100000	Scheduler.OrleansTaskScheduler	127.0.0.1:22222]	Starting OrleansTaskScheduler with 4 Max Active application Threads and 1 system thread.	
+[2018-05-30 12:35:00.837 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	Searching for assemblies in G:\新建文件夹\Authoritymanager\HOST\bin\Debug...	
+[2018-05-30 12:35:01.679 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Base.EntityFramework.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:01.683 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Base.Expand.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:01.686 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Base.Info.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:01.688 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Base.Logging.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:01.694 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Base.SqlServer.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:01.700 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Manager.Model.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:01.705 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Manager.Servces.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:01.707 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Mangaer.Contract.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.230 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.455 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Microsoft.CodeAnalysis.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.462 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.468 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.505 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Newtonsoft.Json.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.510 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Orleans.dll
+	* Assembly filename is excluded.	
+[2018-05-30 12:35:02.514 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\OrleansCodeGenerator.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.526 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\OrleansRuntime.dll
+	* Assembly filename is excluded.	
+[2018-05-30 12:35:02.534 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\OrleansTelemetryConsumers.Counters.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.537 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.AppContext.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.564 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Collections.Immutable.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.567 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Console.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.569 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.570 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Diagnostics.StackTrace.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.573 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.IO.FileSystem.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.578 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.IO.FileSystem.Primitives.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.628 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Reflection.Metadata.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.633 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Security.Cryptography.Algorithms.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.635 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Security.Cryptography.Encoding.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.637 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Security.Cryptography.Primitives.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.642 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.649 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Text.Encoding.CodePages.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.653 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Threading.Thread.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.655 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Xml.XmlDocument.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.658 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Xml.XPath.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.661 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Xml.XPath.XDocument.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2018-05-30 12:35:02.664 GMT     1	WARNING	101705	AssemblyLoader.Silo	127.0.0.1:22222]	Unable to find directory G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Applications; skipping.	
+[2018-05-30 12:35:02.665 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	Loading assembly G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Manager.Implement.dll...	
+[2018-05-30 12:35:02.667 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	Loading assembly G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Manager.Query.dll...	
+[2018-05-30 12:35:02.707 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	Loading assembly G:\新建文件夹\Authoritymanager\HOST\bin\Debug\OrleansProviders.dll...	
+[2018-05-30 12:35:02.710 GMT     1	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	3 assemblies loaded.	
+[2018-05-30 12:35:04.924 GMT     1	INFO   	101010	Runtime.Messaging.IncomingMessageAcceptor	127.0.0.1:22222]	Opened a listening socket at address 127.0.0.1:22222	
+[2018-05-30 12:35:04.932 GMT     1	INFO   	101010	Runtime.Messaging.GatewayAcceptor	127.0.0.1:22222]	Opened a listening socket at address 127.0.0.1:40000	
+[2018-05-30 12:35:04.970 GMT     1	INFO   	100000	VirtualBucketsRingProvider	127.0.0.1:22222]	Starting VirtualBucketsRingProvider on silo S127.0.0.1:22222:265379694/x72BDFF7C.	
+[2018-05-30 12:35:05.013 GMT     1	INFO   	103003	VirtualBucketsRingProvider	127.0.0.1:22222]	Added Server S127.0.0.1:22222:265379694/x72BDFF7C. Current view: [S127.0.0.1:22222:265379694 -> <MultiRange: Size=x100000000, %Ring=100.000%>]	
+[2018-05-30 12:35:05.019 GMT     1	INFO   	103005	VirtualBucketsRingProvider	127.0.0.1:22222]	-NotifyLocalRangeSubscribers about old <(0 0], Size=x100000000, %Ring=100.000%> new <MultiRange: Size=x100000000, %Ring=100.000%> increased? True	
+[2018-05-30 12:35:05.029 GMT     1	INFO   	100000	Silo	127.0.0.1:22222]	Skip multicluster oracle creation (no multicluster network configured)	
+[2018-05-30 12:35:05.048 GMT     1	INFO   	100294	SystemStatus	127.0.0.1:22222]	SystemStatus=Created	
+[2018-05-30 12:35:05.053 GMT     1	INFO   	100422	Silo	127.0.0.1:22222]	-------------- Started silo S127.0.0.1:22222:265379694, ConsistentHashCode 72BDFF7C --------------	
+[2018-05-30 12:35:05.054 GMT     1	INFO   	100288	OrleansSiloHost	127.0.0.1:22222]	Successfully initialized Orleans silo 'Default' as a Primary node.	
+[2018-05-30 12:35:05.061 GMT     1	INFO   	100441	OrleansSiloHost	127.0.0.1:22222]	Silo shutdown event name: Default-Shutdown	
+[2018-05-30 12:35:05.063 GMT     1	INFO   	100442	OrleansSiloHost	127.0.0.1:22222]	Created and set shutdown event Default-Shutdown	
+[2018-05-30 12:35:05.073 GMT     1	INFO   	100294	SystemStatus	127.0.0.1:22222]	SystemStatus=Starting	
+[2018-05-30 12:35:05.078 GMT     1	INFO   	100401	Silo	127.0.0.1:22222]	Silo Start()	
+[2018-05-30 12:35:05.081 GMT     1	INFO   	100430	Silo	127.0.0.1:22222]	Configured ThreadPool.SetMinThreads() to values: 200,200. Previous values are: 4,4.	
+[2018-05-30 12:35:05.082 GMT     1	INFO   	100436	Silo	127.0.0.1:22222]	Configured .NET ServicePointManager to Expect100Continue=False, DefaultConnectionLimit=200, UseNagleAlgorithm=False to improve Azure storage performance.	
+[2018-05-30 12:35:05.160 GMT     1	INFO   	101711	AssemblyLoader.Silo	127.0.0.1:22222]	Loaded grain type summary for 12 types: 
+Grain class Manager.Implement.Manager.Implement.ComponetBase [1521316955 (0x5AAD745B)] from Manager.Implement.dll implementing interfaces: 
+Grain class Manager.Implement.Manager.Implement.SysLogComponet [-772625539 (0xD1F2AB7D)] from Manager.Implement.dll implementing interfaces: Mangaer.Contract.IImplement.Mangaer.Contract.IImplement.ISysLogComponet [-1188834720 (0xB923D260)], Orleans.Orleans.IGrainWithStringKey [-1277021679 (0xB3E23211)]
+Grain class Manager.Implement.Manager.Implement.Test [-394610138 (0xE87ABA26)] from Manager.Implement.dll implementing interfaces: Mangaer.Contract.Mangaer.Contract.ITest [-187492859 (0xF4D31605)], Orleans.Orleans.IGrainWithStringKey [-1277021679 (0xB3E23211)]
+Grain class Manager.Implement.Manager.Implement.UserComponet [454727239 (0x1B1A9647)] from Manager.Implement.dll implementing interfaces: Mangaer.Contract.IImplement.Mangaer.Contract.IImplement.IUserComponet [-2054593082 (0x858965C6)], Orleans.Orleans.IGrainWithStringKey [-1277021679 (0xB3E23211)]
+Grain class Manager.Query.Manager.Query.UserAppServiceQuery [-521526440 (0xE0EA2358)] from Manager.Query.dll implementing interfaces: 
+Grain class Orleans.LogConsistency.Orleans.LogConsistency.LogConsistentGrainBase<TView> [-2062750837 (0x850CEB8B)] from Orleans.dll implementing interfaces: 
+Grain class Orleans.Providers.Orleans.Providers.MemoryStreamQueueGrain [1359359215 (0x51062CEF)] from OrleansProviders.dll implementing interfaces: Orleans.Providers.Orleans.Providers.IMemoryStreamQueueGrain [1158152105 (0x4507FFA9)]
+Grain class Orleans.Runtime.Management.Orleans.Runtime.Management.ManagementGrain [1954798034 (0x7483D9D2)] from OrleansRuntime.dll implementing interfaces: Orleans.Runtime.Orleans.Runtime.IManagementGrain [-1734666656 (0x989B1660)]
+Grain class Orleans.Runtime.MembershipService.Orleans.Runtime.MembershipService.GrainBasedMembershipTable [-2103923544 (0x8298ACA8)] from OrleansRuntime.dll implementing interfaces: Orleans.Orleans.IMembershipTableGrain [-1256503757 (0xB51B4633)]
+Grain class Orleans.Runtime.ReminderService.Orleans.Runtime.ReminderService.GrainBasedReminderTable [-55315191 (0xFCB3F509)] from OrleansRuntime.dll implementing interfaces: Orleans.Orleans.IReminderTableGrain [-1135060418 (0xBC585A3E)]
+Grain class Orleans.Storage.Orleans.Storage.MemoryStorageGrain [819348208 (0x30D642F0)] from OrleansRuntime.dll implementing interfaces: Orleans.Storage.Orleans.Storage.IMemoryStorageGrain [577125491 (0x22663C73)]
+Grain class Orleans.Streams.Orleans.Streams.PubSubRendezvousGrain [1903070868 (0x716E8E94)] from OrleansRuntime.dll implementing interfaces: Orleans.Streams.Orleans.Streams.IPubSubRendezvousGrain [1746702088 (0x681C8F08)]
+	
+[2018-05-30 12:35:05.193 GMT    14	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/System.5	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/System.5 on managed thread 14	
+[2018-05-30 12:35:05.193 GMT    12	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/2	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/2 on managed thread 12	
+[2018-05-30 12:35:05.193 GMT    10	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/0	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/0 on managed thread 10	
+[2018-05-30 12:35:05.194 GMT    11	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/1	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/1 on managed thread 11	
+[2018-05-30 12:35:05.198 GMT    13	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/3	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/3 on managed thread 13	
+[2018-05-30 12:35:05.199 GMT    17	INFO   	100000	Runtime.Messaging.IncomingMessageAcceptor	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAcceptor on managed thread 17	
+[2018-05-30 12:35:05.202 GMT    18	INFO   	100000	Runtime.Messaging.SiloMessageSender/PingSender	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.SiloMessageSender/PingSender on managed thread 18	
+[2018-05-30 12:35:05.206 GMT    19	INFO   	100000	Runtime.Messaging.SiloMessageSender/SystemSender	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.SiloMessageSender/SystemSender on managed thread 19	
+[2018-05-30 12:35:05.208 GMT    23	INFO   	100000	Runtime.Messaging.IncomingMessageAgent/Ping	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/Ping on managed thread 23	
+[2018-05-30 12:35:05.209 GMT    22	INFO   	100000	Runtime.Messaging.IncomingMessageAgent/System	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/System on managed thread 22	
+[2018-05-30 12:35:05.209 GMT    24	INFO   	100000	Runtime.Messaging.IncomingMessageAgent/Application	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/Application on managed thread 24	
+[2018-05-30 12:35:05.210 GMT     1	INFO   	100000	Orleans.GrainDirectory.LocalGrainDirectory	127.0.0.1:22222]	Start (SeverityLevel=Info)	
+[2018-05-30 12:35:05.214 GMT    17	INFO   	100328	Runtime.Messaging.IncomingMessageAcceptor	127.0.0.1:22222]	Stopping AsyncAgent Runtime.Messaging.IncomingMessageAcceptor that runs on managed thread 17	
+[2018-05-30 12:35:05.218 GMT    15	INFO   	100000	Runtime.GrainDirectory.AdaptiveDirectoryCacheMaintainer`1	127.0.0.1:22222]	Starting AsyncAgent Runtime.GrainDirectory.AdaptiveDirectoryCacheMaintainer`1 on managed thread 15	
+[2018-05-30 12:35:05.218 GMT    16	INFO   	100000	Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer	127.0.0.1:22222]	Starting AsyncAgent Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer on managed thread 16	
+[2018-05-30 12:35:05.228 GMT    16	INFO   	100328	Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer	127.0.0.1:22222]	Stopping AsyncAgent Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer that runs on managed thread 16	
+[2018-05-30 12:35:05.259 GMT     1	INFO   	100000	ReminderFactory	127.0.0.1:22222]	Creating reminder grain service for type=ReminderTableGrain	
+[2018-05-30 12:35:05.267 GMT     9	INFO   	100000	TypeManager	127.0.0.1:22222]	OnRefreshClusterMapTimer: refresh start	
+[2018-05-30 12:35:05.321 GMT    11	INFO   	103102	ProviderLoader/IStorageProvider	127.0.0.1:22222]	Loaded provider of type Orleans.Storage.MemoryStorage Name=MemoryStore	
+[2018-05-30 12:35:05.324 GMT    14	INFO   	100507	Catalog	127.0.0.1:22222]	Before collection#1: memory=10MB, #activations=0, collector=<#Activations=0, #Buckets=0, buckets=[]>.	
+[2018-05-30 12:35:05.324 GMT    11	INFO   	103102	ProviderLoader/IStorageProvider	127.0.0.1:22222]	Loaded provider of type Orleans.Storage.MemoryStorage Name=Default	
+[2018-05-30 12:35:05.332 GMT    14	INFO   	100508	Catalog	127.0.0.1:22222]	After collection#1: memory=10MB, #activations=0, collected 0 activations, collector=<#Activations=0, #Buckets=0, buckets=[]>, collection time=00:00:00.0125989.	
+[2018-05-30 12:35:05.344 GMT    11	INFO   	0	Storage.MemoryStorage.1	127.0.0.1:22222]	Init: Name=MemoryStore NumStorageGrains=10	
+[2018-05-30 12:35:05.345 GMT    11	INFO   	0	Storage.MemoryStorage.2	127.0.0.1:22222]	Init: Name=Default NumStorageGrains=10	
+[2018-05-30 12:35:05.365 GMT    10	INFO   	100603	MembershipOracle	127.0.0.1:22222]	MembershipOracle starting on host = LAPTOP-R9P4JODR address = S127.0.0.1:22222:265379694 at 2018-05-30 12:35:00.784 GMT, backOffMax = 00:00:20	
+[2018-05-30 12:35:05.375 GMT    10	INFO   	100635	MembershipTableFactory	127.0.0.1:22222]	Creating membership table grain	
+[2018-05-30 12:35:05.438 GMT    12	INFO   	100637	GrainBasedMembershipTable	127.0.0.1:22222]	GrainBasedMembershipTable Activated.	
+[2018-05-30 12:35:05.537 GMT    14	INFO   	100631	MembershipTableFactory	127.0.0.1:22222]	-Connected to membership table provider.	
+[2018-05-30 12:35:05.590 GMT    13	INFO   	100000	GrainBasedMembershipTable	127.0.0.1:22222]	InitializeMembershipTable True.	
+[2018-05-30 12:35:06.139 GMT    10	INFO   	100652	MembershipOracle	127.0.0.1:22222]	-CleanupTable called on silo startup. Membership table 0 silos, 0 are Active, 0 are Dead, Version=<0, 0>. All silos: []	
+[2018-05-30 12:35:06.186 GMT    10	INFO   	100660	MembershipOracle	127.0.0.1:22222]	Starting IAmAliveUpdateTimer.	
+[2018-05-30 12:35:06.207 GMT    10	INFO   	100604	MembershipOracle	127.0.0.1:22222]	-BecomeActive	
+[2018-05-30 12:35:06.216 GMT    10	INFO   	100614	MembershipOracle	127.0.0.1:22222]	About to send pings to 0 nodes in order to validate communication in the Joining state. Pinged nodes = []	
+[2018-05-30 12:35:06.237 GMT    11	INFO   	100634	MembershipOracle	127.0.0.1:22222]	-ReadAll (called from BecomeActive) Membership table 1 silos, 1 are Active, 0 are Dead, Version=<2, 5>. All silos: [SiloAddress=S127.0.0.1:22222:265379694 SiloName=Default Status=Active]	
+[2018-05-30 12:35:06.244 GMT    11	INFO   	100605	MembershipOracle	127.0.0.1:22222]	-Finished BecomeActive.	
+[2018-05-30 12:35:06.247 GMT     1	INFO   	100702	WindowsPerfCountersStatistics	127.0.0.1:22222]	Starting Windows perf counter stats collection with frequency=00:00:30	
+[2018-05-30 12:35:06.318 GMT     1	INFO   	100714	SiloPerformanceMetrics	127.0.0.1:22222]	Starting Silo Table metrics reporter with reportFrequency=00:00:30	
+[2018-05-30 12:35:06.324 GMT    12	INFO   	100000	DeploymentLoadPublisher	127.0.0.1:22222]	Starting DeploymentLoadPublisher.	
+[2018-05-30 12:35:06.361 GMT    14	INFO   	100000	DeploymentLoadPublisher	127.0.0.1:22222]	Started DeploymentLoadPublisher.	
+[2018-05-30 12:35:06.364 GMT     1	INFO   	100000	Watchdog	127.0.0.1:22222]	Starting Silo Watchdog.	
+[2018-05-30 12:35:06.366 GMT    26	INFO   	100000	Runtime.Watchdog	127.0.0.1:22222]	Starting AsyncAgent Runtime.Watchdog on managed thread 26	
+[2018-05-30 12:35:06.407 GMT    10	INFO   	100000	GrainBasedReminderTable_S127.0.0.1:22222:265379694*grn/FCB3F509/00003039@7f79758e	127.0.0.1:22222]	GrainBasedReminderTable *grn/FCB3F509/00003039 Activated. Full identity: [ActivationAddress: S127.0.0.1:22222:265379694*grn/FCB3F509/00003039@7f79758e, Full GrainId: [GrainId: *grn/FCB3F509/0000000000000000000000000000303903fffffffcb3f509-0xBB9ED002, IdCategory: Grain, BaseTypeCode: -55315191 (xFCB3F509), PrimaryKey: 12345 (x3039), UniformHashCode: 3147747330 (0xBB9ED002)], Full ActivationId: @4fe4f7f74f5b103817ca3a707f79758e0000000000000000]	
+[2018-05-30 12:35:06.425 GMT    10	INFO   	102925	Orleans.Runtime.ReminderService.LocalReminderService	127.0.0.1:22222]	Starting Orleans.Runtime.ReminderService.LocalReminderService grain service on: S127.0.0.1:22222:265379694 x72BDFF7C, with range 	
+[2018-05-30 12:35:06.483 GMT    20	INFO   	100000	Runtime.Messaging.GatewayAcceptor	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.GatewayAcceptor on managed thread 20	
+[2018-05-30 12:35:06.484 GMT     1	INFO   	100294	SystemStatus	127.0.0.1:22222]	SystemStatus=Running	
+[2018-05-30 12:35:06.484 GMT    21	INFO   	100000	Runtime.Messaging.GatewayClientCleanupAgent	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.GatewayClientCleanupAgent on managed thread 21	
+[2018-05-30 12:35:06.488 GMT    20	INFO   	100328	Runtime.Messaging.GatewayAcceptor	127.0.0.1:22222]	Stopping AsyncAgent Runtime.Messaging.GatewayAcceptor that runs on managed thread 20	
+[2018-05-30 12:35:06.488 GMT     1	INFO   	100424	OrleansSiloHost	127.0.0.1:22222]	Silo startup event name: Default	
+[2018-05-30 12:35:06.492 GMT     1	INFO   	100425	OrleansSiloHost	127.0.0.1:22222]	Created and set startup event Default	
+[2018-05-30 12:35:06.493 GMT     1	INFO   	100402	OrleansSiloHost	127.0.0.1:22222]	Silo Default started successfully	
+[2018-05-30 12:35:53.730 GMT    25	INFO   	101301	Orleans.Messaging.Gateway	127.0.0.1:22222]	Recorded opened socket from endpoint 127.0.0.1:63956, client ID *cli/4bf2e08c.	
+[2018-05-30 12:35:53.894 GMT    29	INFO   	100000	Runtime.Messaging.GatewaySender/GatewaySiloSender_0	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.GatewaySender/GatewaySiloSender_0 on managed thread 29	
+[2018-05-30 12:35:58.785 GMT    14	WARNING	101723	AssemblyProcessor	127.0.0.1:22222]	AssemblyLoader encountered an exception loading types from assembly 'Base.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null': System.Reflection.ReflectionTypeLoadException: 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+   在 System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   在 System.Reflection.RuntimeAssembly.get_DefinedTypes()
+   在 Orleans.Runtime.TypeUtils.GetDefinedTypes(Assembly assembly, Logger logger)	
+Exc level 0: System.Reflection.ReflectionTypeLoadException: 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+   在 System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   在 System.Reflection.RuntimeAssembly.get_DefinedTypes()
+   在 Orleans.Runtime.TypeUtils.GetDefinedTypes(Assembly assembly, Logger logger)
+Exc level 1: System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+Exc level 1: System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+Exc level 1: System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+Exc level 1: System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+Exc level 1: System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+[2018-05-30 12:35:58.796 GMT    14	ERROR  	102401	AssemblyProcessor	127.0.0.1:22222]	!!!!!!!!!! Failed to load type Base.EntityFramework.Migrations.PaperTest+<>c in assembly Base.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.	
+Exc level 0: System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+   在 System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   在 System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   在 System.RuntimeType.get_DeclaringType()
+   在 System.RuntimeType.RuntimeTypeCache.GetNameSpace()
+   在 System.RuntimeType.get_Namespace()
+   在 Orleans.Serialization.SerializationManager.FindSerializationInfo(Type type)
+   在 Orleans.Runtime.AssemblyProcessor.ProcessAssembly(Assembly assembly)
+[2018-05-30 12:35:58.800 GMT    14	ERROR  	102401	AssemblyProcessor	127.0.0.1:22222]	!!!!!!!!!! Failed to load type Base.EntityFramework.Migrations.Update_TableName+<>c in assembly Base.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.	
+Exc level 0: System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+   在 System.RuntimeTypeHandle.GetDeclaringType(RuntimeType type)
+   在 System.RuntimeType.RuntimeTypeCache.GetEnclosingType()
+   在 System.RuntimeType.get_DeclaringType()
+   在 System.RuntimeType.RuntimeTypeCache.GetNameSpace()
+   在 System.RuntimeType.get_Namespace()
+   在 Orleans.Serialization.SerializationManager.FindSerializationInfo(Type type)
+   在 Orleans.Runtime.AssemblyProcessor.ProcessAssembly(Assembly assembly)
+[2018-05-30 12:35:58.807 GMT    14	WARNING	101723	ProviderTypeLoader	127.0.0.1:22222]	AssemblyLoader encountered an exception loading types from assembly 'Base.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null': System.Reflection.ReflectionTypeLoadException: 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+   在 System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   在 System.Reflection.RuntimeAssembly.get_DefinedTypes()
+   在 Orleans.Runtime.TypeUtils.GetDefinedTypes(Assembly assembly, Logger logger)	
+Exc level 0: System.Reflection.ReflectionTypeLoadException: 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+   在 System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   在 System.Reflection.RuntimeAssembly.get_DefinedTypes()
+   在 Orleans.Runtime.TypeUtils.GetDefinedTypes(Assembly assembly, Logger logger)
+Exc level 1: System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+Exc level 1: System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+Exc level 1: System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+Exc level 1: System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+Exc level 1: System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+[2018-05-30 12:35:58.815 GMT    14	ERROR  	101540	Dispatcher	127.0.0.1:22222]	!!!!!!!!!! Error creating activation for Manager.Implement.UserComponet. Message NewPlacement Request S127.0.0.1:22222:265379694*cli/4bf2e08c@c1c69fbd->S127.0.0.1:22222:265379694*grn/1B1A9647/00000000+ke@d4f6c882 #6: global::Mangaer.Contract.IImplement.IUserComponet:Login()	
+Exc level 0: System.IO.FileNotFoundException: 未能加载文件或程序集“EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089”或它的某一个依赖项。系统找不到指定的文件。
+   在 Manager.Servces.UserAppService..ctor()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 Microsoft.Extensions.DependencyInjection.ServiceLookup.CreateInstanceCallSite.Invoke(ServiceProvider provider)
+   在 Microsoft.Extensions.DependencyInjection.ServiceProvider.TransientCallSite.Invoke(ServiceProvider provider)
+   在 Microsoft.Extensions.DependencyInjection.ServiceProvider.<>c__DisplayClass12_0.<RealizeService>b__0(ServiceProvider provider)
+   在 Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   在 Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   在 lambda_method(Closure , IServiceProvider , Object[] )
+   在 Orleans.Runtime.GrainCreator.CreateGrainInstance(Type grainType, IGrainIdentity identity)
+   在 Orleans.Runtime.Catalog.CreateGrainInstance(String grainTypeName, ActivationData data, String genericArguments)
+   在 Orleans.Runtime.Catalog.SetupActivationInstance(ActivationData result, String grainType, String genericArguments)
+   在 Orleans.Runtime.Catalog.GetOrCreateActivation(ActivationAddress address, Boolean newPlacement, String grainType, String genericArguments, Dictionary`2 requestContextData, Task& activatedPromise)
+   在 Orleans.Runtime.Dispatcher.ReceiveMessage(Message message)
+[2018-05-30 12:36:02.115 GMT    25	INFO   	101302	Orleans.Messaging.Gateway	127.0.0.1:22222]	Recorded closed socket from endpoint 127.0.0.1:63956, client ID *cli/4bf2e08c.	
+[2018-05-30 12:36:05.293 GMT     7	INFO   	100000	TypeManager	127.0.0.1:22222]	OnRefreshClusterMapTimer: refresh start	
+[2018-05-30 12:36:05.337 GMT    14	INFO   	100507	Catalog	127.0.0.1:22222]	Before collection#2: memory=10MB, #activations=4, collector=<#Activations=1, #Buckets=1, buckets=[1h:59m:54s.663ms->1 items]>.	
+[2018-05-30 12:36:05.340 GMT    14	INFO   	100508	Catalog	127.0.0.1:22222]	After collection#2: memory=10MB, #activations=4, collected 0 activations, collector=<#Activations=1, #Buckets=1, buckets=[1h:59m:54s.659ms->1 items]>, collection time=00:00:00.0038719.	
+[2018-05-30 12:37:05.341 GMT    13	INFO   	100507	Catalog	127.0.0.1:22222]	Before collection#3: memory=9MB, #activations=4, collector=<#Activations=1, #Buckets=1, buckets=[1h:58m:54s.658ms->1 items]>.	
+[2018-05-30 12:37:05.342 GMT    13	INFO   	100508	Catalog	127.0.0.1:22222]	After collection#3: memory=9MB, #activations=4, collected 0 activations, collector=<#Activations=1, #Buckets=1, buckets=[1h:58m:54s.657ms->1 items]>, collection time=00:00:00.0014527.	
+[2018-05-30 12:37:06.494 GMT    21	INFO   	101303	Orleans.Messaging.Gateway	127.0.0.1:22222]	Dropping client *cli/4bf2e08c, 00:01:04.3648170 after disconnect with no reconnect	
+[2018-05-30 12:38:05.355 GMT    14	INFO   	100507	Catalog	127.0.0.1:22222]	Before collection#4: memory=11MB, #activations=4, collector=<#Activations=1, #Buckets=1, buckets=[1h:57m:54s.644ms->1 items]>.	
+[2018-05-30 12:38:05.357 GMT    14	INFO   	100508	Catalog	127.0.0.1:22222]	After collection#4: memory=11MB, #activations=4, collected 0 activations, collector=<#Activations=1, #Buckets=1, buckets=[1h:57m:54s.643ms->1 items]>, collection time=00:00:00.0018412.	
+[2018-05-30 12:39:05.370 GMT    14	INFO   	100507	Catalog	127.0.0.1:22222]	Before collection#5: memory=11MB, #activations=4, collector=<#Activations=1, #Buckets=1, buckets=[1h:56m:54s.629ms->1 items]>.	

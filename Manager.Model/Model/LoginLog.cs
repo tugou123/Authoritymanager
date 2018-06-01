@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Manager.Model.Model
 {
-    [Table("Manager_LoginLogs")]
+    [Table("Sys_LoginLogs")]
     //==============================================================
     //  作者：三秋  (1932821628@qq.com)
     //  时间：2018/5/5 14:29:11
@@ -20,12 +20,13 @@ namespace Manager.Model.Model
     //==============================================================
    public class LoginLog:BaseModel
     {
-        /// <summary>
-        /// 登陆ID
-        /// </summary>
-        [Key]
+        //private long _id;
+        ///// <summary>
+        ///// 登陆ID
+        ///// </summary>
+        //[Key]
        
-        public new long Id { set; get; }
+        //public new long Id { set { _id = value; } get { return _id; } }
         /// <summary>
         /// 登陆主机名称
         /// </summary>

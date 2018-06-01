@@ -112,4 +112,10 @@ G:\新建文件夹\Authoritymanager\HOST\bin\Debug\OrleansRuntime.xml
 G:\新建文件夹\Authoritymanager\HOST\bin\Debug\OrleansTelemetryConsumers.Counters.xml
 G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Collections.Immutable.xml
 G:\新建文件夹\Authoritymanager\HOST\bin\Debug\System.Reflection.Metadata.xml
+G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Manager.Query.dll
+G:\新建文件夹\Authoritymanager\HOST\bin\Debug\EntityFramework.dll
+G:\新建文件夹\Authoritymanager\HOST\bin\Debug\EntityFramework.SqlServer.dll
+G:\新建文件夹\Authoritymanager\HOST\bin\Debug\EntityFramework.xml
+G:\新建文件夹\Authoritymanager\HOST\bin\Debug\EntityFramework.SqlServer.xml
 G:\新建文件夹\Authoritymanager\HOST\obj\Debug\HOST.csprojResolveAssemblyReference.cache
+G:\新建文件夹\Authoritymanager\HOST\bin\Debug\Base.NET.dll

@@ -31,3 +31,5 @@ G:\新建文件夹\Authoritymanager\Manager.Implement\bin\Debug\System.Reflectio
 G:\新建文件夹\Authoritymanager\Manager.Implement\obj\Debug\Manager.Implement.csprojResolveAssemblyReference.cache
 G:\新建文件夹\Authoritymanager\Manager.Implement\obj\Debug\Manager.Implement.dll
 G:\新建文件夹\Authoritymanager\Manager.Implement\obj\Debug\Manager.Implement.pdb
+G:\新建文件夹\Authoritymanager\Manager.Implement\bin\Debug\Base.Expand.dll
+G:\新建文件夹\Authoritymanager\Manager.Implement\bin\Debug\Base.Expand.pdb

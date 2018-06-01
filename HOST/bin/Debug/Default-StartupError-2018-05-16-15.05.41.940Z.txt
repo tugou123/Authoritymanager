@@ -1,0 +1,4 @@
+2018-05-16-15.05.41.940ZZ
+ERROR starting Orleans silo name=Default Exception=
+Exc level 0: System.SystemException: Failed to start Orleans silo 'Default' as a Primary node.
+   在 HOST.OrleansHostWrapper.get_Run() 位置 G:\新建文件夹\Authoritymanager\HOST\OrleansHostWrapper.cs:行号 142

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,10 +18,11 @@ namespace Manager.Model.Model
     //==============================================================
    public class BaseModel
     {
+        [Key]
         /// <summary>
         /// Id
         /// </summary>
-        public object Id { get; set; }
+        public long Id { get; set; }
 
         /// <summary>
         /// 获取图片服务器所在路径

@@ -17,3 +17,4 @@ G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\Mangaer.Contract.d
 G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\EntityFramework.xml
 G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\EntityFramework.SqlServer.xml
 G:\新建文件夹\Authoritymanager\Manager.Servces\obj\Debug\Manager.Servces.csprojResolveAssemblyReference.cache
+G:\新建文件夹\Authoritymanager\Manager.Servces\bin\Debug\Base.NET.dll

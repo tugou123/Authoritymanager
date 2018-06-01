@@ -8,7 +8,7 @@ namespace Mangaer.Contract.Dtos
 {
   public  class ResultLoginUser
     {
-        public int Id { get; set; }
+        public long Id { get; set; }
         public string UserName { set; get; }
      
  

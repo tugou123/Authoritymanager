@@ -48,6 +48,9 @@ namespace Mangaer.Contract.IService
         /// <param name="userid"></param>
         /// <returns></returns>
         Task UpdateToken(long userid);
+
+       
+        
     }
 
 

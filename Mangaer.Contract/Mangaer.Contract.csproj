@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Base.Expand">
+      <HintPath>..\dlls\Base.Expand.dll</HintPath>
+    </Reference>
     <Reference Include="Base.Info">
       <HintPath>..\dlls\Base.Info.dll</HintPath>
     </Reference>

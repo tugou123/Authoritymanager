@@ -10,6 +10,8 @@ using Mangaer.Contract.Dtos;
 using Mangaer.Contract.IImplement;
 using Mangaer.Contract.IService;
 using Orleans;
+using Base.Expand;
+
 namespace Manager.Implement
 {
     public class UserComponet : ComponetBase, IUserComponet
@@ -33,13 +35,13 @@ namespace Manager.Implement
                 throw new Exception("uid is invalid ");
             if (string.IsNullOrEmpty(tokenInfo.SingToken))
                 throw new Exception("singtoken is invalid ");
-            if (tokenInfo.ExpiryTime.HasValue)
+            if (!tokenInfo.ExpiryTime.HasValue)
                 throw new Exception("expirytime is invalid ");
-             await _IUserAppService.CreataToken(tokenInfo);
+            await _IUserAppService.CreataToken(tokenInfo);
 
         }
 
-        public async Task DeleteUserinfo(long userid,long operatorid)
+        public async Task DeleteUserinfo(long userid, long operatorid)
         {
             if (userid <= 0)
             {
@@ -65,7 +67,7 @@ namespace Manager.Implement
 
         public Task<TokeninfoDto> GetToken(long userid)
         {
-            throw new NotImplementedException();
+            
         }
 
         public Task<UserinfoDto> GetUserinfo(long userid)
@@ -87,13 +89,13 @@ namespace Manager.Implement
             throw new NotImplementedException();
         }
 
-        public Task UpdataUserInfo(UserinfoDto userinfo)
+        public async Task UpdataUserInfo(UserinfoDto userinfo)
         {
-            
-            if (userinfo.Id<=0)
+            if (userinfo.Id <= 0)
                 throw new Exception("uid is invalid");
-           await _IUserAppService.UpdataUserInfo(userinfo,1);
-            userinfo.MapTo<>
+            var usr = userinfo.MapTo<UserInfo>();
+            await _IUserAppService.UpdataUserInfo(usr, 1);
+
         }
 
         public Task UpdateToken(long userid)

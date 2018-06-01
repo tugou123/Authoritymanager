@@ -1,0 +1,11 @@
+2018-05-16-15.19.48.061ZZ
+ERROR starting Orleans silo name=Default Exception=
+Exc level 0: Orleans.CodeGenerator.CodeGenerationException: (1,26931): error CS0266: Cannot implicitly convert type 'object' to 'long'. An explicit conversion exists (are you missing a cast?)
+(1,29064): error CS0266: Cannot implicitly convert type 'object' to 'long'. An explicit conversion exists (are you missing a cast?)
+   在 Orleans.CodeGenerator.CodeGeneratorCommon.CompileAssembly(GeneratedSyntax generatedSyntax, String assemblyName, Boolean emitDebugSymbols)
+   在 Orleans.CodeGenerator.RoslynCodeGenerator.CompileAndLoad(GeneratedSyntax generatedSyntax, Boolean emitDebugSymbols)
+   在 Orleans.CodeGenerator.RoslynCodeGenerator.GenerateAndLoadForAssemblies(Assembly[] inputs)
+   在 Orleans.CodeGeneration.CodeGeneratorManager.GenerateAndLoadForAssemblies(Assembly[] inputs)
+   在 Orleans.Runtime.AssemblyProcessor.Initialize()
+   在 Orleans.Runtime.Silo..ctor(SiloInitializationParameters initializationParams)
+   在 Orleans.Runtime.Host.SiloHost.InitializeOrleansSilo()
